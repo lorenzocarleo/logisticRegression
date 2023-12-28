@@ -1,0 +1,1001 @@
+CustomerID,Gender,Age,Tenure,ServiceType,MonthlyCharges,Contract,PaperlessBilling,PaymentMethod,OnlineSecurity,TechSupport,StreamingTV,StreamingMovies,TotalCharges,Churn
+1,Male,57,30,Internet,53.758137532887154,Month-to-month,No,Electronic check,Yes,Yes,Yes,No,1702.7284117039826,Yes
+2,Female,60,29,Phone,80.91640528298268,Two year,Yes,Electronic check,No,No,Yes,Yes,2368.789045947883,No
+3,Female,46,53,Both,97.59584418813597,Month-to-month,Yes,Mailed check,Yes,No,Yes,No,5219.803076085448,No
+4,Male,42,43,Internet,27.61451622015302,One year,Yes,Bank transfer,No,No,Yes,No,1212.7996603948038,No
+5,Female,36,11,Internet,35.80597336011924,One year,No,Mailed check,Yes,Yes,No,Yes,400.9604742864621,No
+6,Female,21,18,Internet,86.50816241420333,Two year,Yes,Credit card,Yes,Yes,Yes,No,1656.8415430241919,No
+7,Female,62,1,Internet,93.8402441015417,Two year,No,Bank transfer,Yes,No,No,No,146.26713595622965,No
+8,Female,37,40,Internet,78.82017770788354,Two year,No,Electronic check,No,Yes,Yes,No,3242.765830155893,Yes
+9,Female,63,39,Internet,118.28033489679264,One year,No,Electronic check,Yes,Yes,No,Yes,4664.261062727656,No
+10,Female,18,66,Phone,69.94614891065746,Month-to-month,Yes,Mailed check,No,Yes,Yes,Yes,4695.935240921999,No
+11,Female,28,49,Both,33.62923350976436,Month-to-month,No,Mailed check,Yes,No,No,No,1671.3903716519608,No
+12,Male,21,46,Phone,88.629106037108,Two year,No,Credit card,Yes,Yes,Yes,No,4122.9442318753745,No
+13,Male,24,50,Internet,80.20755221947981,Month-to-month,No,Mailed check,Yes,Yes,No,Yes,4052.311887641812,Yes
+14,Female,45,23,Internet,79.04214750302634,Month-to-month,Yes,Credit card,Yes,No,Yes,No,1821.4995983921008,No
+15,Male,53,66,Internet,74.58536352463982,Two year,No,Electronic check,No,Yes,Yes,No,5005.021515707936,No
+16,Male,24,67,Phone,113.90957095495389,One year,Yes,Mailed check,No,No,No,No,7636.036928204372,No
+17,Male,37,33,Internet,32.9156396826558,Two year,Yes,Credit card,No,Yes,Yes,Yes,1108.3274871597105,No
+18,Male,52,51,Phone,27.319729852497836,Two year,No,Mailed check,Yes,No,No,No,1457.6619172695925,Yes
+19,Male,68,71,Both,35.41171693773198,Two year,Yes,Bank transfer,Yes,Yes,Yes,Yes,2522.6900086198684,No
+20,Female,68,36,Phone,44.49902099049505,Month-to-month,Yes,Electronic check,No,No,Yes,Yes,1642.34718486763,No
+21,Male,56,24,Phone,79.29463194364692,Two year,No,Mailed check,No,No,No,Yes,1996.533102615569,No
+22,Female,38,28,Both,81.24252490967343,Two year,Yes,Bank transfer,No,Yes,Yes,No,2332.293750143642,No
+23,Female,61,2,Internet,43.26018774570843,One year,Yes,Bank transfer,Yes,Yes,Yes,No,138.50232107037317,No
+24,Male,18,10,Phone,68.92254993109376,One year,No,Credit card,No,Yes,Yes,Yes,701.9317602506745,No
+25,Male,54,12,Both,68.20618527677348,Two year,No,Mailed check,No,Yes,Yes,No,850.6767042312856,No
+26,Female,63,65,Phone,65.3110766285225,One year,Yes,Credit card,Yes,Yes,Yes,Yes,4315.200149346921,No
+27,Female,59,68,Phone,100.35452949126581,Two year,Yes,Electronic check,Yes,Yes,No,No,6841.87082717698,Yes
+28,Female,20,62,Both,67.16930698756319,One year,No,Bank transfer,No,Yes,Yes,No,4214.542115028684,No
+29,Female,51,55,Phone,95.8365495956166,Two year,No,Electronic check,No,No,Yes,No,5319.942277041718,Yes
+30,Male,30,37,Both,36.64811318047981,One year,No,Bank transfer,No,Yes,Yes,No,1375.1227392170997,No
+31,Female,33,20,Phone,73.1967344073168,Month-to-month,No,Bank transfer,No,Yes,Yes,Yes,1510.0221082044836,No
+32,Male,51,70,Internet,102.41047760631956,One year,Yes,Electronic check,Yes,Yes,No,Yes,7168.795720699013,No
+33,Female,41,63,Both,37.77165839162576,One year,No,Credit card,No,Yes,Yes,No,2387.3257568558965,No
+34,Male,30,69,Internet,66.49221686976622,Two year,Yes,Credit card,No,No,Yes,Yes,4635.586129129333,No
+35,Female,23,42,Phone,80.90793160357168,One year,Yes,Bank transfer,Yes,No,Yes,No,3485.1576518357533,Yes
+36,Female,56,17,Internet,38.47745748372873,One year,Yes,Credit card,No,No,Yes,Yes,656.1178894355282,No
+37,Male,19,58,Both,95.6765605911403,Month-to-month,Yes,Mailed check,Yes,No,Yes,No,5628.285476744352,No
+38,Female,28,6,Phone,27.899624779631743,Two year,No,Credit card,Yes,Yes,Yes,Yes,196.3962403633438,No
+39,Female,24,23,Both,114.64155089077188,Month-to-month,Yes,Mailed check,No,Yes,Yes,Yes,2729.387482024682,No
+40,Male,24,4,Phone,66.82214942181358,Two year,Yes,Bank transfer,Yes,No,No,No,360.19205228421976,No
+41,Male,56,9,Internet,53.61230863654765,Two year,Yes,Credit card,No,No,No,Yes,505.17792405371534,No
+42,Female,56,63,Internet,31.680700716264035,Two year,Yes,Mailed check,Yes,Yes,Yes,No,2003.7203857601105,No
+43,Male,29,42,Both,63.25966430678647,One year,No,Credit card,No,No,Yes,Yes,2701.5443526420477,Yes
+44,Female,68,12,Both,85.98040293907718,Two year,Yes,Electronic check,Yes,No,No,No,1053.2333215831181,No
+45,Female,39,35,Phone,29.448727914238408,Month-to-month,Yes,Electronic check,No,No,No,Yes,1035.3469194188128,No
+46,Female,68,50,Both,50.62690951677486,One year,Yes,Credit card,No,Yes,No,Yes,2592.6353244772517,Yes
+47,Female,68,40,Both,103.60175827727112,Two year,Yes,Credit card,Yes,Yes,Yes,No,4177.436431700693,Yes
+48,Female,69,59,Internet,84.61810255983272,Two year,Yes,Credit card,Yes,No,No,Yes,5042.685890489499,No
+49,Male,20,6,Both,40.63730118576239,One year,No,Mailed check,No,No,No,Yes,280.9463905467715,No
+50,Female,30,13,Both,36.09097957930892,Month-to-month,No,Mailed check,No,No,No,No,555.7711945929757,Yes
+51,Male,47,60,Phone,110.44850262008998,Month-to-month,Yes,Mailed check,Yes,Yes,Yes,No,6701.898648847836,Yes
+52,Female,27,16,Internet,48.70202213409844,One year,No,Electronic check,Yes,No,Yes,Yes,854.5549381016442,No
+53,Female,69,5,Internet,37.95001688986303,One year,Yes,Credit card,No,No,Yes,No,214.36123768247307,Yes
+54,Female,26,23,Phone,119.99640185426024,One year,No,Bank transfer,No,No,No,No,2770.117689617097,No
+55,Female,23,53,Internet,50.91918277779059,One year,Yes,Mailed check,No,No,No,No,2710.7903290416325,No
+56,Male,61,67,Phone,32.47401878093637,One year,Yes,Credit card,No,Yes,No,No,2229.668443522066,No
+57,Female,19,6,Phone,66.1757629752947,Two year,Yes,Mailed check,No,Yes,No,Yes,478.1733299950566,No
+58,Male,61,40,Both,63.43451101984821,Month-to-month,Yes,Credit card,Yes,Yes,Yes,No,2626.286550056277,Yes
+59,Male,33,42,Both,112.68024758303311,One year,Yes,Electronic check,Yes,No,Yes,No,4765.175197834253,No
+60,Female,30,23,Phone,33.42049474763047,Two year,Yes,Credit card,No,No,No,No,814.1430762189106,No
+61,Female,65,20,Both,29.113640612930684,One year,Yes,Bank transfer,No,Yes,Yes,Yes,586.5752345285252,No
+62,Male,30,63,Both,29.29786709066801,Month-to-month,Yes,Electronic check,Yes,Yes,Yes,Yes,1855.356620710973,No
+63,Female,39,30,Internet,110.42874658222364,Month-to-month,Yes,Mailed check,No,No,Yes,No,3369.803849416783,No
+64,Male,36,10,Internet,64.9369177961077,Month-to-month,No,Electronic check,No,No,No,Yes,730.4485543054594,No
+65,Female,43,12,Both,35.060652815522566,Month-to-month,No,Bank transfer,Yes,No,No,Yes,472.1053544717298,No
+66,Male,31,27,Phone,79.38300983792905,Two year,No,Electronic check,No,Yes,No,Yes,2208.0480411806193,No
+67,Male,48,2,Phone,73.7623355650832,Month-to-month,No,Electronic check,Yes,No,Yes,No,221.8509616775383,Yes
+68,Male,46,47,Both,39.84067477488993,One year,Yes,Credit card,Yes,No,No,Yes,1955.540574889016,Yes
+69,Male,62,56,Both,80.3038139426371,Month-to-month,No,Bank transfer,Yes,Yes,Yes,No,4546.823877396587,No
+70,Male,59,11,Phone,54.02312343169456,Two year,Yes,Credit card,Yes,Yes,Yes,Yes,622.5706048993986,No
+71,Female,39,25,Internet,43.83707677308699,Month-to-month,No,Mailed check,No,Yes,Yes,No,1109.2082791704145,No
+72,Female,24,44,Internet,71.04006108990282,One year,No,Electronic check,No,No,Yes,No,3196.181936162059,No
+73,Male,54,14,Phone,49.16492615163876,Two year,Yes,Electronic check,No,No,No,No,765.0220728951306,Yes
+74,Male,66,56,Both,42.21399217612132,Two year,No,Bank transfer,No,Yes,No,No,2396.4798964198835,No
+75,Male,58,6,Internet,107.97224082996742,One year,No,Mailed check,No,No,Yes,Yes,688.0834973219013,No
+76,Female,44,24,Phone,35.57625765734173,Month-to-month,Yes,Bank transfer,No,No,Yes,No,922.7065183545076,No
+77,Female,48,43,Both,48.05899772848325,Month-to-month,No,Credit card,No,Yes,Yes,Yes,2156.2799820835803,No
+78,Male,23,50,Both,58.61383798498257,Month-to-month,No,Credit card,Yes,No,No,No,2993.5816746667006,Yes
+79,Female,33,57,Internet,47.36383103000229,Month-to-month,No,Mailed check,No,No,Yes,No,2789.1998646909406,Yes
+80,Male,55,44,Both,41.07106425777696,Month-to-month,No,Mailed check,No,No,Yes,Yes,1895.4278497225432,No
+81,Male,55,25,Phone,97.1146097054588,Month-to-month,Yes,Electronic check,No,Yes,Yes,Yes,2501.4501856197953,No
+82,Female,67,22,Phone,52.90161587235815,Month-to-month,No,Credit card,No,Yes,No,Yes,1222.439988501181,Yes
+83,Male,49,19,Phone,31.251295769933844,Two year,No,Mailed check,Yes,No,No,No,618.2257932827832,No
+84,Female,50,64,Phone,74.08951624566959,Month-to-month,No,Mailed check,Yes,Yes,Yes,Yes,4749.031026110216,No
+85,Female,66,30,Both,32.54884972364103,Month-to-month,No,Electronic check,No,No,No,Yes,1007.9268896817924,No
+86,Female,34,38,Phone,55.75196074409279,Month-to-month,No,Electronic check,Yes,Yes,Yes,No,2204.420772481559,Yes
+87,Female,50,50,Internet,108.18267622722838,One year,No,Mailed check,No,No,Yes,No,5473.42810454637,No
+88,Female,28,41,Both,56.91611951062197,Month-to-month,No,Credit card,No,No,No,No,2377.5711321188824,Yes
+89,Female,30,12,Both,83.250897428825,Two year,No,Mailed check,No,No,No,Yes,1073.5696020049372,Yes
+90,Male,47,57,Both,71.46255360086312,Month-to-month,No,Credit card,Yes,Yes,No,Yes,4140.397542195301,No
+91,Female,18,64,Phone,33.77248457779756,Two year,Yes,Mailed check,No,Yes,No,Yes,2241.0898126797474,No
+92,Female,47,15,Both,84.90695977908352,One year,Yes,Credit card,Yes,Yes,Yes,No,1366.3055749928315,No
+93,Male,44,33,Phone,105.60349969338063,One year,No,Bank transfer,Yes,Yes,Yes,No,3527.951034047778,No
+94,Male,57,66,Phone,29.321247404534404,Two year,No,Electronic check,No,No,Yes,Yes,2022.0296444286628,No
+95,Female,40,66,Both,95.36800891297915,Two year,No,Mailed check,Yes,No,Yes,No,6294.647732163479,Yes
+96,Male,37,37,Both,89.02112815189781,One year,Yes,Mailed check,No,No,Yes,Yes,3364.6969064242676,No
+97,Male,23,26,Phone,106.66605749971458,Two year,No,Electronic check,Yes,Yes,No,No,2811.7253538900013,No
+98,Female,54,51,Both,30.4091932133467,Month-to-month,Yes,Credit card,Yes,Yes,No,No,1609.0564213408397,No
+99,Female,37,13,Both,50.56953793966788,One year,No,Mailed check,Yes,No,Yes,Yes,706.5029170026612,Yes
+100,Male,54,25,Phone,89.42914872263741,One year,No,Mailed check,No,Yes,Yes,No,2294.9689732038646,Yes
+101,Female,23,20,Phone,22.201797888665023,Two year,No,Mailed check,Yes,Yes,Yes,No,504.9581231960377,No
+102,Male,46,68,Both,93.40756777304887,Month-to-month,Yes,Credit card,No,Yes,No,Yes,6379.676751623939,No
+103,Male,30,11,Phone,105.79785790011209,Month-to-month,Yes,Mailed check,No,No,Yes,Yes,1191.5430150552718,No
+104,Female,44,8,Phone,65.33040523767576,One year,Yes,Bank transfer,Yes,Yes,Yes,Yes,535.396581485637,No
+105,Male,67,53,Internet,63.432990342665214,Two year,No,Mailed check,No,No,No,Yes,3419.2635240504706,No
+106,Male,37,15,Both,47.8468962069366,Month-to-month,No,Mailed check,No,No,Yes,No,723.6303956854549,No
+107,Male,30,47,Both,20.505187000508734,Month-to-month,No,Electronic check,No,Yes,Yes,No,1059.640199377569,No
+108,Female,56,36,Both,38.630351666635605,Two year,No,Credit card,No,Yes,No,No,1421.853084109878,No
+109,Female,25,24,Both,117.98641184223712,Two year,No,Bank transfer,Yes,No,Yes,Yes,2849.6263493053398,No
+110,Male,34,62,Both,106.72860771213567,One year,Yes,Electronic check,Yes,No,Yes,No,6659.617059461156,Yes
+111,Female,47,54,Phone,46.65046387489214,Month-to-month,Yes,Credit card,Yes,Yes,No,No,2588.706568977841,Yes
+112,Male,18,13,Both,116.37488571210464,One year,Yes,Credit card,Yes,No,No,No,1519.1565204925628,No
+113,Male,41,46,Both,56.77126159532859,One year,Yes,Mailed check,Yes,Yes,Yes,Yes,2631.4411292572395,Yes
+114,Male,33,8,Internet,49.758537475118004,Two year,No,Electronic check,Yes,Yes,Yes,No,466.0847847473676,No
+115,Male,28,48,Phone,35.28076354498852,Month-to-month,No,Credit card,No,No,No,Yes,1779.458747020069,Yes
+116,Male,21,40,Both,110.16110695106741,Two year,Yes,Bank transfer,No,Yes,Yes,Yes,4442.660207884348,Yes
+117,Female,21,20,Both,118.69924910668593,Two year,No,Mailed check,No,No,No,Yes,2391.7356891962518,No
+118,Male,34,51,Both,52.74114040526824,One year,No,Mailed check,No,No,No,No,2730.7917158218984,No
+119,Female,66,66,Both,90.34304233584268,Month-to-month,No,Mailed check,No,No,No,No,5980.661448179584,No
+120,Male,27,44,Phone,53.530340980955465,Two year,Yes,Mailed check,No,No,No,No,2452.4781268396455,No
+121,Female,38,57,Internet,30.49907393054552,One year,Yes,Bank transfer,No,Yes,Yes,Yes,1776.6784759584277,No
+122,Female,55,51,Internet,59.26923068823239,Month-to-month,Yes,Mailed check,Yes,No,Yes,No,3077.843123549791,No
+123,Female,66,35,Both,75.1569960761176,Two year,No,Credit card,Yes,No,No,Yes,2651.4552278555825,No
+124,Female,35,12,Internet,32.301675917649426,Month-to-month,No,Electronic check,Yes,No,No,No,478.41919396201916,No
+125,Female,27,12,Internet,101.82727747897611,One year,Yes,Credit card,Yes,Yes,Yes,Yes,1273.1917911124326,No
+126,Male,62,37,Internet,69.73631168932894,One year,Yes,Mailed check,No,No,Yes,No,2639.173319192723,No
+127,Female,33,50,Internet,43.4382952504573,Two year,No,Electronic check,Yes,No,No,No,2260.684069696638,Yes
+128,Female,56,49,Internet,79.27595785429433,One year,Yes,Mailed check,No,No,Yes,Yes,3901.152192649312,No
+129,Female,32,12,Phone,99.3259306054402,One year,No,Mailed check,No,Yes,Yes,No,1207.8394567014698,Yes
+130,Female,51,35,Phone,52.76243490519758,One year,Yes,Bank transfer,No,No,No,No,1853.8736677459674,No
+131,Male,22,40,Phone,90.14763244005944,Month-to-month,Yes,Bank transfer,No,Yes,No,Yes,3699.341002618415,No
+132,Female,34,11,Internet,62.78591799806873,Two year,No,Credit card,No,Yes,Yes,Yes,729.7041896331516,No
+133,Female,54,3,Phone,116.40511688456009,Two year,Yes,Bank transfer,Yes,No,No,No,378.7988887962854,No
+134,Male,25,47,Internet,97.09400866027316,One year,No,Electronic check,Yes,Yes,No,Yes,4589.07180884183,No
+135,Male,41,52,Internet,55.6350902522021,One year,Yes,Electronic check,No,No,Yes,No,2979.6758195361526,No
+136,Female,45,42,Phone,21.77479590617621,Month-to-month,Yes,Electronic check,No,No,No,Yes,1012.59977078435,No
+137,Male,64,4,Both,85.75198953804279,Two year,No,Mailed check,Yes,Yes,Yes,No,409.5717009981619,No
+138,Male,25,17,Internet,39.787215858485226,Month-to-month,Yes,Mailed check,No,No,No,No,756.4662481969788,Yes
+139,Male,40,64,Internet,32.18791756491328,Two year,No,Mailed check,No,Yes,Yes,No,2123.3482833026274,No
+140,Male,52,65,Phone,113.17764513967937,Two year,No,Mailed check,No,Yes,No,Yes,7399.576227191884,No
+141,Female,48,14,Internet,119.99489702149168,Month-to-month,No,Bank transfer,No,Yes,Yes,No,1753.1040843716614,Yes
+142,Female,34,39,Internet,46.98888205643851,Month-to-month,Yes,Mailed check,No,Yes,No,No,1919.4290165500065,No
+143,Male,45,5,Internet,50.1768552165938,One year,No,Electronic check,Yes,Yes,No,No,309.1785187919022,No
+144,Male,65,4,Phone,36.49889392381687,Two year,No,Credit card,No,No,Yes,No,218.9446111074555,No
+145,Female,65,20,Both,65.76847759296237,One year,Yes,Credit card,Yes,Yes,Yes,No,1388.3671319591108,No
+146,Male,68,17,Both,106.58437598357476,Two year,Yes,Credit card,No,No,No,Yes,1818.3396074683512,No
+147,Female,29,25,Phone,90.15059521248777,One year,Yes,Electronic check,Yes,No,No,No,2320.2986426394464,No
+148,Female,41,12,Internet,104.63315580765877,One year,Yes,Credit card,Yes,No,No,Yes,1323.5820138375673,No
+149,Female,32,23,Both,42.84816556735805,Two year,Yes,Mailed check,No,No,No,No,1039.646722900159,No
+150,Female,57,61,Phone,93.04560674084802,One year,No,Bank transfer,No,No,No,No,5706.015449204971,Yes
+151,Male,48,3,Phone,111.85266283960603,Month-to-month,Yes,Credit card,No,No,No,No,364.59724066461143,No
+152,Male,44,9,Internet,48.14161142143904,Month-to-month,Yes,Bank transfer,No,No,Yes,No,493.4449006449512,No
+153,Male,52,39,Internet,89.06535435911852,One year,Yes,Credit card,No,Yes,No,Yes,3557.7794119772343,No
+154,Female,35,53,Phone,60.06574116898545,Two year,No,Bank transfer,No,No,Yes,No,3210.0392322681164,No
+155,Male,53,64,Phone,49.02266451589226,Two year,No,Bank transfer,Yes,No,No,Yes,3213.83402430264,No
+156,Female,25,22,Phone,116.96234687543495,Two year,Yes,Mailed check,No,Yes,No,Yes,2623.126564730577,No
+157,Female,63,5,Both,54.86332299682927,One year,No,Bank transfer,Yes,Yes,Yes,No,310.07917092052037,No
+158,Female,66,32,Internet,30.784968126068726,Month-to-month,Yes,Bank transfer,No,No,Yes,No,1061.1563072337044,No
+159,Male,55,38,Phone,58.85892096203356,One year,No,Credit card,No,No,No,Yes,2287.005234669515,Yes
+160,Female,22,8,Internet,64.76782909599824,Month-to-month,No,Mailed check,Yes,Yes,No,Yes,613.265446246841,No
+161,Male,31,23,Both,95.22108254992379,One year,Yes,Electronic check,No,Yes,Yes,Yes,2243.8706131489603,Yes
+162,Male,55,43,Phone,114.99142669470028,One year,No,Mailed check,Yes,Yes,No,Yes,4966.8216740042735,No
+163,Female,37,60,Internet,101.70569837942126,Two year,No,Electronic check,No,No,Yes,Yes,6116.666671739911,Yes
+164,Male,61,55,Both,113.0941311255106,Month-to-month,No,Credit card,No,Yes,Yes,Yes,6227.799923278281,No
+165,Female,26,52,Phone,67.50601299749312,One year,Yes,Credit card,Yes,Yes,No,Yes,3554.795366284727,No
+166,Female,50,24,Internet,91.93165682364342,Month-to-month,Yes,Mailed check,Yes,Yes,No,Yes,2270.0593237713715,Yes
+167,Male,35,26,Phone,50.904958501240245,One year,Yes,Bank transfer,Yes,Yes,No,No,1353.1740963096502,No
+168,Male,23,58,Internet,26.958710851901795,Month-to-month,No,Credit card,No,No,No,No,1591.0861982491351,No
+169,Female,54,70,Internet,56.547352532599355,One year,No,Bank transfer,No,Yes,Yes,Yes,4036.62585800246,No
+170,Male,19,46,Both,89.79152283282977,Month-to-month,No,Bank transfer,Yes,Yes,No,No,4228.4632493955505,No
+171,Female,47,52,Both,47.462211024804375,Two year,No,Electronic check,Yes,No,Yes,Yes,2518.6065086050653,Yes
+172,Male,23,60,Both,106.1405895641521,Month-to-month,Yes,Electronic check,Yes,No,Yes,Yes,6464.060621620433,No
+173,Female,34,45,Both,99.07728499829018,One year,Yes,Mailed check,No,No,No,No,4464.935932337394,No
+174,Male,56,27,Both,39.404254918460296,Month-to-month,No,Credit card,Yes,Yes,No,Yes,1120.0689022608078,Yes
+175,Female,58,44,Internet,53.083676249080675,One year,Yes,Electronic check,Yes,Yes,Yes,No,2426.1416728294107,Yes
+176,Male,40,33,Both,102.53026175490918,Two year,No,Mailed check,No,No,Yes,No,3434.3607274434708,No
+177,Female,48,31,Internet,44.393778951129946,Two year,Yes,Mailed check,Yes,No,Yes,No,1426.2239264990917,No
+178,Male,37,15,Internet,53.160214566713066,One year,Yes,Credit card,Yes,No,Yes,No,855.3765352711698,No
+179,Male,22,62,Phone,54.306693242308675,Month-to-month,Yes,Credit card,No,No,Yes,Yes,3404.8670610118957,No
+180,Male,38,2,Internet,100.10420278257668,One year,Yes,Electronic check,Yes,No,Yes,Yes,252.12730254418736,No
+181,Female,60,48,Internet,23.703026560501677,Month-to-month,No,Credit card,No,No,Yes,Yes,1151.7639060174133,No
+182,Male,28,44,Both,27.37869831214143,Month-to-month,Yes,Credit card,Yes,Yes,Yes,Yes,1277.4406965485002,No
+183,Female,21,16,Internet,77.84515481629376,Two year,Yes,Mailed check,No,No,No,Yes,1247.1638642747828,No
+184,Male,40,69,Both,59.71119909960667,One year,No,Bank transfer,Yes,Yes,Yes,Yes,4141.71943107691,No
+185,Female,55,40,Internet,83.28853196107076,Month-to-month,No,Electronic check,No,Yes,No,Yes,3426.3136287060947,No
+186,Male,47,1,Internet,46.64612761793829,Month-to-month,No,Bank transfer,Yes,Yes,No,Yes,92.03714965945352,No
+187,Male,59,59,Both,110.95826774815608,Month-to-month,No,Mailed check,No,No,Yes,Yes,6603.74482809986,Yes
+188,Male,58,13,Phone,96.0941887174456,One year,Yes,Electronic check,Yes,Yes,Yes,Yes,1323.6776618139788,No
+189,Male,35,44,Internet,26.774622055039604,One year,Yes,Bank transfer,No,Yes,No,Yes,1192.6235392171636,No
+190,Male,69,55,Internet,98.3905477285034,Month-to-month,Yes,Credit card,Yes,No,No,No,5510.780635167461,Yes
+191,Female,58,48,Both,116.95823723122513,Month-to-month,No,Credit card,No,No,Yes,No,5656.216306244386,No
+192,Male,60,23,Both,114.2435620587473,Month-to-month,Yes,Mailed check,No,Yes,No,No,2627.603930104199,No
+193,Male,48,32,Phone,93.54837980254477,Two year,Yes,Credit card,Yes,No,No,Yes,3073.0552635113263,No
+194,Female,47,35,Phone,32.35937534812156,Two year,Yes,Electronic check,Yes,No,No,No,1140.5020969642899,Yes
+195,Male,51,43,Phone,77.60767658404541,Month-to-month,No,Electronic check,Yes,Yes,No,No,3384.230796926293,No
+196,Male,48,69,Internet,48.42327288404888,Month-to-month,No,Credit card,No,No,Yes,Yes,3364.631860547751,No
+197,Male,64,63,Internet,117.02129436362472,Two year,Yes,Bank transfer,Yes,No,Yes,No,7388.910954759651,Yes
+198,Female,55,37,Both,91.74857253616094,Month-to-month,Yes,Bank transfer,Yes,Yes,Yes,Yes,3416.5073926758405,No
+199,Male,42,45,Both,81.07655897874193,One year,Yes,Mailed check,No,Yes,Yes,Yes,3715.4582990343033,No
+200,Male,34,71,Both,89.50880426047263,One year,Yes,Mailed check,No,Yes,No,No,6414.411501761843,No
+201,Female,53,7,Phone,63.79791291096805,Two year,Yes,Electronic check,Yes,No,No,Yes,453.07967742896557,Yes
+202,Male,57,49,Phone,57.27367514376066,Month-to-month,No,Electronic check,No,No,No,No,2879.7109467398027,No
+203,Female,47,10,Phone,113.57995794399642,One year,No,Credit card,Yes,No,No,Yes,1190.0001884522158,No
+204,Male,19,29,Internet,53.19271347926866,Month-to-month,No,Mailed check,Yes,Yes,Yes,No,1551.360143011753,Yes
+205,Male,41,57,Internet,24.14361317327193,Two year,No,Credit card,No,No,Yes,No,1417.2406415660942,Yes
+206,Female,26,10,Both,60.08401541544574,Month-to-month,No,Bank transfer,No,Yes,No,No,667.4898915484843,No
+207,Female,18,67,Phone,99.03403526216722,Month-to-month,Yes,Bank transfer,No,No,Yes,Yes,6654.387302803476,No
+208,Male,41,10,Internet,84.84683580489194,Month-to-month,Yes,Electronic check,Yes,Yes,Yes,No,916.3824247883715,No
+209,Male,55,37,Phone,116.21707754778747,One year,Yes,Credit card,Yes,No,No,No,4326.635590963295,No
+210,Male,65,29,Internet,30.620186761913764,One year,No,Credit card,No,Yes,Yes,No,964.4112702619142,No
+211,Female,44,65,Phone,111.15463022293834,Two year,No,Electronic check,No,No,Yes,Yes,7228.069195559065,No
+212,Female,43,14,Internet,56.884919391406214,Month-to-month,Yes,Bank transfer,No,Yes,Yes,Yes,857.4350547882326,No
+213,Male,43,3,Internet,67.40025854219124,Month-to-month,Yes,Mailed check,No,Yes,Yes,Yes,299.3445997450093,No
+214,Male,24,38,Internet,62.84821544892344,Two year,No,Electronic check,No,Yes,Yes,Yes,2405.817187436003,No
+215,Male,42,4,Internet,31.645228109244144,One year,Yes,Electronic check,No,No,No,Yes,215.65689413049182,No
+216,Male,33,51,Both,44.779645572518874,One year,No,Electronic check,Yes,No,Yes,Yes,2344.466786674548,No
+217,Male,55,62,Phone,94.2271569229792,One year,No,Electronic check,No,No,Yes,Yes,5901.491942951933,Yes
+218,Female,59,29,Internet,22.30075418456952,Month-to-month,No,Electronic check,No,Yes,Yes,Yes,711.6405373549594,No
+219,Male,35,36,Internet,33.38877743862746,One year,Yes,Electronic check,No,No,No,No,1301.2377276683696,No
+220,Female,34,54,Phone,22.521016879135008,Two year,No,Bank transfer,Yes,No,No,Yes,1224.9626021851955,No
+221,Male,66,27,Internet,105.73880573235492,One year,No,Bank transfer,No,Yes,No,No,2871.3045259060295,No
+222,Male,61,43,Internet,81.73248277817797,Month-to-month,No,Credit card,No,Yes,Yes,No,3575.7662902178354,No
+223,Male,64,47,Phone,36.99286621185588,Month-to-month,No,Mailed check,Yes,Yes,No,No,1819.6978279141347,No
+224,Female,23,70,Both,96.87722230537535,Month-to-month,No,Bank transfer,No,No,Yes,No,6785.572601010543,No
+225,Female,37,29,Both,116.68005974515538,Month-to-month,Yes,Credit card,No,No,Yes,Yes,3472.5335891775185,No
+226,Female,65,44,Internet,113.45603745300181,One year,Yes,Bank transfer,No,Yes,No,No,5007.689674243949,No
+227,Male,40,63,Both,112.15475478121652,One year,Yes,Credit card,Yes,Yes,Yes,No,7121.685734738622,No
+228,Male,63,10,Both,20.781021540574322,Two year,Yes,Mailed check,No,No,Yes,Yes,284.47943992453213,No
+229,Female,29,39,Internet,78.90134889852786,Month-to-month,Yes,Credit card,No,Yes,Yes,Yes,3143.509374627044,No
+230,Female,29,32,Internet,45.66326166390293,One year,Yes,Electronic check,No,No,No,Yes,1537.4924757834842,No
+231,Female,51,23,Both,76.46472143098588,One year,Yes,Bank transfer,Yes,Yes,No,Yes,1788.0061652399313,Yes
+232,Female,25,58,Internet,51.80302891605547,Month-to-month,No,Bank transfer,Yes,Yes,No,No,3090.579265367071,No
+233,Male,44,22,Internet,35.36665427726126,One year,No,Credit card,No,Yes,Yes,Yes,803.8166377845191,No
+234,Male,66,62,Both,64.44937233583467,One year,Yes,Mailed check,No,Yes,No,No,4067.1984589421313,No
+235,Male,25,42,Phone,69.50963271763734,Month-to-month,Yes,Mailed check,No,No,Yes,No,2930.081206272397,No
+236,Female,65,42,Both,118.97655068476246,Two year,No,Bank transfer,No,Yes,No,No,5090.351426808637,No
+237,Female,50,24,Both,24.23878841385401,Two year,No,Electronic check,Yes,Yes,No,Yes,609.8644115245205,No
+238,Male,54,53,Both,50.115519889727665,Two year,No,Electronic check,No,No,No,No,2668.9206075680713,No
+239,Female,36,24,Internet,105.18938450883226,Two year,No,Mailed check,Yes,No,No,No,2537.107266439655,No
+240,Male,41,42,Both,85.96954981260427,Two year,No,Credit card,No,Yes,Yes,Yes,3689.7568412340197,No
+241,Male,39,61,Internet,102.66830318458959,One year,No,Credit card,No,Yes,Yes,Yes,6341.037924544207,No
+242,Female,20,48,Phone,86.02909185597778,One year,Yes,Mailed check,No,Yes,No,No,4196.682874516639,No
+243,Male,26,16,Both,95.95363091461329,One year,No,Electronic check,No,No,No,Yes,1633.049919910458,No
+244,Female,28,37,Phone,69.29217499970574,Two year,Yes,Credit card,Yes,No,No,Yes,2660.9580979488364,Yes
+245,Female,23,66,Both,40.487769289759754,One year,Yes,Credit card,No,No,Yes,No,2744.747486319747,Yes
+246,Female,56,43,Internet,101.00038608371999,Two year,Yes,Bank transfer,Yes,Yes,No,Yes,4427.104395293146,No
+247,Female,56,1,Phone,76.78206546639692,One year,No,Bank transfer,No,No,No,No,154.41938007077226,No
+248,Male,54,7,Both,33.95051937868297,One year,Yes,Mailed check,No,Yes,No,No,245.3778128241016,No
+249,Male,19,68,Phone,100.48940268708661,Month-to-month,No,Credit card,Yes,No,No,Yes,6896.417546163283,No
+250,Male,54,32,Internet,115.85859103625782,One year,Yes,Credit card,Yes,No,No,Yes,3748.868893198941,No
+251,Female,23,30,Internet,54.61638726284658,Two year,Yes,Bank transfer,No,Yes,No,No,1687.4080068001404,No
+252,Female,23,17,Both,49.35122520864435,Month-to-month,Yes,Electronic check,No,No,No,No,861.1174298647379,No
+253,Female,56,68,Both,28.177517820756606,Month-to-month,Yes,Credit card,Yes,Yes,Yes,No,1919.0174500324354,No
+254,Male,53,27,Phone,86.44912264494155,One year,No,Bank transfer,Yes,No,Yes,No,2424.026484312869,No
+255,Female,42,7,Internet,115.89616184964967,Two year,No,Credit card,Yes,No,No,Yes,903.5523944104784,No
+256,Female,67,12,Internet,33.59926899916076,Month-to-month,Yes,Mailed check,Yes,Yes,No,No,477.3104282282862,Yes
+257,Female,33,56,Both,68.51596313193156,One year,Yes,Mailed check,No,No,No,No,3911.254920721567,No
+258,Female,38,44,Internet,29.823818465324784,One year,No,Mailed check,Yes,No,No,Yes,1395.633619695026,No
+259,Male,68,68,Internet,23.41099037098158,Month-to-month,Yes,Bank transfer,Yes,Yes,Yes,Yes,1623.1312052237965,Yes
+260,Male,27,21,Internet,86.45010506676454,Two year,No,Electronic check,No,Yes,No,Yes,1897.4604938290688,Yes
+261,Female,22,15,Phone,106.76871753434979,One year,No,Bank transfer,No,No,No,Yes,1669.1972641706286,No
+262,Female,67,15,Phone,53.757053612602974,One year,No,Credit card,No,Yes,No,No,885.114889186497,Yes
+263,Male,42,64,Phone,107.57651744100993,One year,Yes,Bank transfer,Yes,No,No,Yes,6970.257542730947,No
+264,Male,48,44,Internet,31.70530991510319,Two year,Yes,Mailed check,No,Yes,Yes,No,1484.0604931913,No
+265,Male,20,28,Both,43.79606819174762,Two year,No,Credit card,Yes,No,No,Yes,1228.4001119151276,No
+266,Female,37,21,Both,110.16067269067184,One year,No,Credit card,No,No,Yes,Yes,2359.555787106681,Yes
+267,Female,21,24,Both,70.85098936906702,One year,No,Bank transfer,Yes,No,No,No,1795.3132184949445,No
+268,Male,31,35,Phone,80.81923837970241,Two year,No,Bank transfer,Yes,No,Yes,No,2886.363709459695,No
+269,Female,29,33,Internet,23.80182325425079,One year,Yes,Credit card,No,Yes,Yes,Yes,857.0577844621957,Yes
+270,Female,31,66,Phone,32.83899101478889,One year,Yes,Credit card,Yes,No,Yes,Yes,2200.853512512108,No
+271,Female,54,23,Phone,25.579081250085316,Two year,No,Credit card,Yes,No,No,No,597.5951682976415,No
+272,Female,35,22,Both,110.50007399496693,Month-to-month,No,Mailed check,No,Yes,Yes,Yes,2488.6698749221887,No
+273,Female,44,58,Both,33.4794963870947,Month-to-month,Yes,Mailed check,No,No,Yes,Yes,1984.569537909386,Yes
+274,Male,24,69,Internet,104.96728266087545,One year,Yes,Credit card,No,No,Yes,No,7245.251676403305,No
+275,Male,65,46,Phone,55.103469937245315,Two year,No,Electronic check,Yes,No,Yes,No,2544.338444834758,No
+276,Male,52,40,Internet,100.059749636578,One year,Yes,Bank transfer,No,Yes,Yes,Yes,4048.6857423218808,Yes
+277,Female,39,25,Phone,56.50435474567474,One year,No,Electronic check,Yes,Yes,Yes,No,1462.5317722098257,No
+278,Male,38,18,Internet,46.76840396928765,One year,No,Mailed check,No,Yes,No,No,891.4993994049464,No
+279,Female,60,53,Phone,29.366070118905725,Month-to-month,Yes,Credit card,No,No,Yes,Yes,1585.9124074720148,No
+280,Male,35,9,Internet,48.07065905741337,Month-to-month,Yes,Bank transfer,Yes,Yes,Yes,No,489.06091168753176,No
+281,Female,55,6,Phone,67.14797167172799,One year,No,Credit card,Yes,No,Yes,Yes,451.757753624157,No
+282,Female,43,11,Phone,101.75087988967955,Two year,Yes,Electronic check,Yes,No,No,Yes,1144.0998681146589,No
+283,Male,39,63,Both,65.25149547686979,Month-to-month,No,Bank transfer,No,No,No,No,4173.915970196791,No
+284,Male,54,30,Phone,117.14355749376175,Two year,Yes,Credit card,No,Yes,Yes,Yes,3590.6739822596046,No
+285,Male,22,12,Both,74.16330108548229,Two year,No,Bank transfer,No,Yes,Yes,No,895.9804215746045,No
+286,Female,65,31,Internet,22.494562981144345,Two year,No,Mailed check,Yes,Yes,Yes,Yes,715.5813676800674,No
+287,Male,52,59,Both,61.53673001912724,One year,Yes,Bank transfer,No,No,Yes,No,3701.7505198392823,No
+288,Male,29,43,Phone,88.88991073865137,Month-to-month,Yes,Credit card,No,Yes,Yes,Yes,3862.47388833996,Yes
+289,Female,52,26,Both,43.42916462498248,Two year,No,Electronic check,Yes,Yes,Yes,Yes,1187.7093787446388,Yes
+290,Female,51,55,Both,89.86299508481586,One year,No,Credit card,No,Yes,Yes,No,4995.09206427285,No
+291,Female,64,26,Internet,70.36973051815161,One year,Yes,Mailed check,Yes,No,No,Yes,1846.6019045358885,No
+292,Female,37,46,Both,22.57377755831153,One year,Yes,Credit card,No,Yes,Yes,Yes,1099.1117488441553,No
+293,Male,66,4,Internet,97.43529494802057,Two year,No,Bank transfer,No,No,No,Yes,401.2334455530929,No
+294,Female,29,38,Internet,76.03737038140751,Two year,Yes,Electronic check,Yes,No,No,Yes,2970.1207365662544,No
+295,Male,51,34,Both,28.24935030810934,One year,Yes,Bank transfer,No,No,Yes,Yes,1010.5932233860532,Yes
+296,Male,43,61,Phone,67.52140334622729,Month-to-month,Yes,Bank transfer,No,No,Yes,Yes,4125.560747820149,No
+297,Male,51,8,Internet,48.729288177474665,One year,No,Electronic check,Yes,Yes,Yes,Yes,488.5134760534694,Yes
+298,Male,49,61,Both,107.9681542587933,Two year,No,Electronic check,No,Yes,Yes,No,6631.102863476222,No
+299,Female,63,38,Internet,48.49270528072488,Month-to-month,Yes,Mailed check,Yes,Yes,No,No,1912.7114000260178,No
+300,Female,24,17,Both,114.16870709741988,Month-to-month,No,Mailed check,Yes,Yes,No,No,1955.3768524735694,Yes
+301,Female,43,46,Both,74.61327493471126,Month-to-month,Yes,Bank transfer,No,Yes,Yes,No,3446.689421415373,No
+302,Male,42,40,Phone,52.36137095467213,One year,No,Credit card,No,Yes,No,Yes,2110.083548172173,No
+303,Female,63,34,Both,101.35450174175773,Month-to-month,Yes,Mailed check,Yes,No,No,Yes,3461.3145859317997,No
+304,Male,56,66,Internet,89.74003783657659,Month-to-month,Yes,Credit card,No,Yes,Yes,No,5936.667739099729,No
+305,Male,69,69,Internet,61.39624956958795,Two year,Yes,Bank transfer,No,Yes,No,Yes,4334.888893258623,No
+306,Female,34,25,Phone,82.9618302706593,One year,Yes,Credit card,Yes,No,Yes,No,2109.2583950395015,No
+307,Female,41,7,Internet,97.85842640282813,Month-to-month,No,Mailed check,No,No,No,No,704.1894053209764,No
+308,Female,44,61,Phone,105.15577942834894,Month-to-month,No,Bank transfer,No,Yes,Yes,No,6456.95718952043,No
+309,Female,21,62,Both,101.64127137140636,Two year,No,Credit card,Yes,No,Yes,No,6352.027250396318,No
+310,Female,44,60,Both,36.6077088593418,Two year,No,Mailed check,Yes,Yes,No,Yes,2242.524316999411,No
+311,Female,64,30,Both,102.83895525035857,Month-to-month,Yes,Mailed check,Yes,Yes,No,No,3130.786580750999,No
+312,Male,47,29,Phone,25.862905888377213,Month-to-month,Yes,Bank transfer,Yes,No,Yes,Yes,822.1272922123557,No
+313,Male,20,25,Internet,40.01706815505686,Month-to-month,Yes,Credit card,Yes,No,Yes,No,1067.9718924099502,Yes
+314,Female,23,4,Internet,82.2926720065989,Month-to-month,Yes,Electronic check,No,No,Yes,No,361.90796924486017,No
+315,Female,25,22,Both,31.469252544690434,One year,No,Mailed check,Yes,Yes,Yes,Yes,710.7446465907407,Yes
+316,Female,33,7,Internet,80.33475950562001,Month-to-month,No,Bank transfer,Yes,Yes,Yes,Yes,632.2824866297988,No
+317,Female,32,22,Phone,50.79656913635638,One year,Yes,Bank transfer,No,Yes,Yes,Yes,1150.2174045189563,Yes
+318,Female,53,28,Phone,62.94665851546483,One year,No,Bank transfer,Yes,No,No,No,1860.2479570298572,Yes
+319,Female,57,27,Phone,51.515150344547806,Month-to-month,No,Electronic check,No,No,No,Yes,1463.9016983595943,No
+320,Female,25,65,Phone,27.017356786490446,Month-to-month,No,Electronic check,No,Yes,No,No,1794.72747580299,No
+321,Female,69,4,Internet,70.07587529219609,Two year,No,Mailed check,Yes,Yes,No,Yes,380.28734863610316,No
+322,Female,56,54,Phone,116.35994443948874,One year,Yes,Bank transfer,No,No,Yes,No,6296.848414078349,No
+323,Female,69,38,Internet,81.17833481601272,One year,Yes,Credit card,No,No,No,No,3117.092007812044,No
+324,Male,47,8,Both,50.00318716171253,Month-to-month,Yes,Electronic check,Yes,Yes,No,Yes,452.85745439203066,No
+325,Male,67,12,Internet,115.61498341240191,Month-to-month,Yes,Electronic check,Yes,No,No,No,1399.7891563433707,No
+326,Male,29,3,Phone,58.92372519522274,Month-to-month,No,Electronic check,Yes,No,Yes,No,236.74338029492887,Yes
+327,Male,21,55,Internet,89.75177338688435,Month-to-month,Yes,Electronic check,No,Yes,Yes,Yes,5008.652029001912,No
+328,Female,31,6,Both,83.41128049224443,Two year,Yes,Credit card,Yes,Yes,No,No,542.6889341500643,Yes
+329,Female,42,18,Both,115.29108480388516,Month-to-month,Yes,Bank transfer,No,No,Yes,No,2139.081949356562,No
+330,Female,22,6,Both,111.4602694494837,Two year,Yes,Mailed check,Yes,Yes,No,No,756.1752487609939,No
+331,Male,69,31,Internet,34.80040563500312,Month-to-month,No,Credit card,Yes,No,Yes,No,1174.7207352478315,No
+332,Female,40,4,Phone,28.568587472942248,Month-to-month,No,Electronic check,Yes,No,No,No,155.9488278943108,No
+333,Female,47,1,Phone,100.96423277988296,One year,No,Mailed check,Yes,Yes,No,Yes,173.1271361977707,No
+334,Female,56,45,Internet,110.49432132968231,Month-to-month,No,Electronic check,No,No,No,No,5049.223280218854,No
+335,Female,29,45,Phone,69.29736039228995,One year,No,Credit card,Yes,No,Yes,No,3189.1171268104063,No
+336,Female,32,62,Phone,89.07612738337751,One year,Yes,Electronic check,Yes,No,No,Yes,5576.180871398162,No
+337,Female,36,1,Internet,26.97882801784182,Month-to-month,No,Mailed check,No,No,Yes,No,44.15896365238657,No
+338,Female,43,18,Both,41.98043978564719,Two year,No,Mailed check,No,No,Yes,Yes,782.5580741499549,No
+339,Male,62,30,Phone,34.937619465672114,One year,No,Bank transfer,No,No,Yes,Yes,1107.6087060876253,No
+340,Male,21,35,Both,80.11605835500339,Month-to-month,No,Bank transfer,No,No,No,No,2841.1067083909725,Yes
+341,Male,55,60,Phone,39.75398937661072,Two year,Yes,Credit card,Yes,No,Yes,Yes,2477.436948340059,No
+342,Male,25,22,Both,25.984631555085063,One year,Yes,Bank transfer,Yes,Yes,No,No,588.3014636042229,No
+343,Female,47,64,Both,50.22072827360107,One year,No,Bank transfer,No,Yes,Yes,Yes,3243.4068106083773,No
+344,Female,32,18,Phone,87.72124291139528,One year,Yes,Mailed check,Yes,No,Yes,No,1587.5711908160688,No
+345,Male,29,39,Phone,77.78637242618545,One year,Yes,Mailed check,No,No,No,No,3090.3179880645525,No
+346,Female,27,2,Internet,53.07249654946358,Two year,No,Credit card,Yes,Yes,Yes,Yes,131.78042531557287,No
+347,Male,29,16,Phone,103.34788758433764,Two year,No,Electronic check,No,No,No,No,1745.222572817159,No
+348,Male,34,18,Phone,47.62691080120896,Month-to-month,Yes,Credit card,No,No,No,No,892.6671235048073,No
+349,Female,57,54,Internet,46.05476383656826,One year,Yes,Mailed check,Yes,Yes,No,Yes,2513.2518667886993,No
+350,Male,19,23,Both,75.99474107895881,One year,Yes,Electronic check,Yes,No,Yes,No,1836.1224707892306,No
+351,Female,36,48,Internet,67.82156398457757,One year,No,Bank transfer,Yes,No,No,No,3291.330095842121,No
+352,Male,46,67,Both,64.59726606003608,One year,No,Electronic check,No,No,No,No,4345.394313135137,No
+353,Female,18,12,Internet,35.57856189540672,One year,Yes,Bank transfer,Yes,Yes,Yes,Yes,520.4448366187413,No
+354,Male,39,10,Phone,70.4646191632991,One year,No,Electronic check,Yes,Yes,No,Yes,705.2709058282315,No
+355,Male,42,41,Phone,45.901891727544424,Two year,Yes,Credit card,No,Yes,Yes,Yes,1960.169329309052,No
+356,Male,27,55,Both,59.21798826190154,One year,No,Bank transfer,No,No,No,Yes,3355.9906771007477,No
+357,Male,26,52,Phone,93.35704476706063,Two year,No,Mailed check,Yes,Yes,No,No,4871.025667460486,No
+358,Female,36,48,Both,113.68628255593556,Month-to-month,Yes,Bank transfer,Yes,No,No,No,5487.457786368075,Yes
+359,Female,29,5,Internet,97.38629651893243,Two year,Yes,Bank transfer,Yes,Yes,No,Yes,543.9156636623,No
+360,Female,46,11,Phone,60.56338946232637,Month-to-month,Yes,Electronic check,Yes,Yes,Yes,No,697.8034353230132,Yes
+361,Male,69,7,Both,79.30331393287639,Month-to-month,Yes,Credit card,Yes,No,Yes,No,609.4409391958746,Yes
+362,Female,35,45,Internet,94.6497815875704,Two year,Yes,Credit card,Yes,Yes,Yes,No,4349.6103108334155,No
+363,Male,33,9,Phone,61.42210500958915,Two year,Yes,Mailed check,No,No,No,Yes,580.7773281794762,No
+364,Female,21,19,Phone,56.02481588123011,One year,Yes,Electronic check,Yes,No,Yes,No,1142.193542020842,Yes
+365,Male,60,3,Both,33.52432959558632,One year,No,Mailed check,No,No,No,No,157.48939152879365,Yes
+366,Male,42,70,Phone,93.62608014758756,Month-to-month,No,Mailed check,No,No,Yes,Yes,6648.22576384984,No
+367,Male,39,30,Both,103.85085908076249,Month-to-month,No,Bank transfer,Yes,Yes,No,Yes,3154.768170110096,No
+368,Male,46,28,Phone,51.65844110299528,Two year,Yes,Bank transfer,No,Yes,Yes,No,1542.6017504600563,No
+369,Female,39,18,Internet,98.35077656425354,Month-to-month,Yes,Credit card,Yes,No,No,No,1866.623700451703,No
+370,Female,32,59,Phone,81.02130583369875,One year,Yes,Bank transfer,No,No,No,No,4860.2063791659775,No
+371,Female,65,12,Both,98.4083046403244,Two year,No,Electronic check,No,Yes,Yes,No,1190.5878271888043,No
+372,Male,19,50,Both,61.133738314966436,One year,No,Electronic check,Yes,No,Yes,No,3080.4078417603905,No
+373,Female,30,4,Both,94.75763636496066,Two year,Yes,Mailed check,Yes,No,Yes,No,385.0590003231401,No
+374,Male,29,12,Internet,60.8509117897626,Month-to-month,Yes,Electronic check,Yes,No,Yes,No,749.5408229918746,No
+375,Male,43,58,Phone,28.87579854194529,Month-to-month,Yes,Credit card,Yes,No,No,Yes,1712.8506240414674,No
+376,Female,57,51,Phone,75.05789181349441,One year,Yes,Credit card,No,Yes,No,Yes,3888.5955980755134,No
+377,Female,29,16,Phone,65.43287263886457,Month-to-month,No,Bank transfer,Yes,Yes,Yes,Yes,1085.475976782496,Yes
+378,Female,44,58,Both,45.28798872015771,Two year,No,Electronic check,No,No,No,Yes,2667.9444433290505,Yes
+379,Male,63,4,Both,109.21133349667691,One year,Yes,Electronic check,Yes,Yes,No,Yes,476.8477277334373,No
+380,Female,52,61,Phone,58.28533055360012,One year,No,Credit card,Yes,No,Yes,No,3562.207057425281,No
+381,Female,19,40,Both,23.91261114322814,Month-to-month,No,Mailed check,Yes,Yes,Yes,No,1044.0187834123635,Yes
+382,Male,34,30,Phone,58.21357402025903,Month-to-month,Yes,Bank transfer,Yes,Yes,Yes,No,1812.3530932800768,Yes
+383,Female,19,54,Phone,62.45098079003697,Two year,No,Electronic check,No,No,No,Yes,3405.9423588990308,Yes
+384,Male,34,68,Both,106.16377231941598,Month-to-month,Yes,Electronic check,Yes,Yes,Yes,Yes,7279.127211761132,Yes
+385,Female,51,57,Phone,99.91832081050435,One year,No,Mailed check,No,Yes,Yes,No,5747.99173215482,No
+386,Female,51,46,Both,39.99665859079243,Two year,No,Mailed check,No,Yes,No,No,1877.7849961255506,No
+387,Male,62,12,Phone,103.90292259588709,One year,Yes,Mailed check,No,Yes,No,No,1260.6821957313016,Yes
+388,Male,56,6,Both,44.792722825366525,One year,Yes,Bank transfer,Yes,No,No,No,346.0272860020759,Yes
+389,Female,58,31,Both,54.1934148164293,One year,No,Mailed check,No,Yes,No,No,1687.479580869216,No
+390,Female,26,59,Both,27.681845397749132,Month-to-month,No,Electronic check,No,No,Yes,No,1652.6482117917449,No
+391,Male,31,69,Phone,25.535631313436383,Two year,No,Electronic check,No,Yes,No,No,1768.4264481169228,Yes
+392,Female,60,60,Phone,88.08601208111375,Two year,No,Bank transfer,Yes,No,Yes,No,5313.523290355879,No
+393,Female,37,33,Internet,112.3341084521733,Month-to-month,No,Mailed check,Yes,Yes,No,Yes,3782.619697187921,Yes
+394,Female,68,38,Phone,69.30168542378287,Month-to-month,Yes,Bank transfer,Yes,No,Yes,No,2728.227728309368,No
+395,Female,50,44,Phone,104.40937119585831,Month-to-month,No,Bank transfer,Yes,Yes,Yes,Yes,4683.522795631157,Yes
+396,Female,41,61,Phone,99.37512496926533,Month-to-month,Yes,Credit card,No,Yes,Yes,Yes,6115.494884687994,No
+397,Female,22,46,Internet,86.46787233813292,One year,Yes,Bank transfer,No,Yes,Yes,No,4027.6020786209083,Yes
+398,Male,49,30,Internet,117.82289311177786,One year,No,Bank transfer,No,No,No,No,3633.382461836495,No
+399,Male,40,28,Phone,100.2187920876386,Month-to-month,No,Mailed check,Yes,No,Yes,No,2856.5611358175183,No
+400,Female,18,28,Phone,47.484439421426146,One year,Yes,Bank transfer,Yes,No,No,No,1404.801937406603,No
+401,Male,55,30,Both,98.9014246221108,One year,Yes,Credit card,Yes,No,Yes,Yes,3061.9819539659097,No
+402,Female,49,39,Phone,89.26616462839036,Month-to-month,No,Bank transfer,Yes,No,Yes,Yes,3482.025191691382,No
+403,Male,33,12,Both,59.952044663635164,One year,Yes,Bank transfer,Yes,No,Yes,Yes,726.6047515124849,Yes
+404,Male,37,33,Phone,27.679747022711503,Month-to-month,No,Electronic check,No,Yes,Yes,Yes,965.8834992254659,No
+405,Female,33,51,Both,41.43595296180997,Two year,Yes,Credit card,Yes,Yes,Yes,No,2113.659771012659,Yes
+406,Female,69,41,Internet,99.7237891643355,Two year,No,Mailed check,Yes,No,No,Yes,4153.938944953993,No
+407,Female,30,71,Internet,44.848528813604915,Month-to-month,No,Credit card,No,Yes,No,No,3272.7887640491836,No
+408,Female,63,31,Phone,119.78579830233481,One year,Yes,Bank transfer,No,Yes,No,No,3805.4772961264707,No
+409,Female,28,23,Internet,89.39881399885446,Month-to-month,No,Electronic check,Yes,No,No,No,2057.4779767354444,No
+410,Male,59,36,Internet,67.72224807176079,Two year,No,Mailed check,Yes,No,Yes,Yes,2526.1246147506317,No
+411,Female,34,69,Both,77.04366902119271,Two year,Yes,Bank transfer,No,No,Yes,No,5384.085656175365,Yes
+412,Female,24,64,Internet,81.08727235414362,Month-to-month,No,Credit card,Yes,Yes,Yes,No,5263.814375252056,No
+413,Female,39,5,Phone,116.89448200326233,Month-to-month,Yes,Mailed check,Yes,Yes,No,No,639.7720403681043,No
+414,Male,48,50,Phone,36.174119463151946,Month-to-month,No,Mailed check,No,No,Yes,No,1829.1169371451804,Yes
+415,Male,21,30,Internet,47.23958026607546,One year,No,Mailed check,No,Yes,No,No,1486.0329578840624,No
+416,Female,34,64,Phone,90.95910479712437,Month-to-month,No,Bank transfer,No,No,Yes,Yes,5855.051868071284,No
+417,Female,18,62,Internet,43.98579831435656,Month-to-month,No,Bank transfer,No,No,No,Yes,2785.922131278103,No
+418,Male,19,27,Phone,107.12971622020503,One year,No,Mailed check,No,No,Yes,Yes,2927.3388440502563,No
+419,Female,68,51,Both,54.653417565811864,One year,Yes,Electronic check,No,No,No,No,2841.6322211576107,Yes
+420,Female,50,18,Internet,38.083939991581914,Two year,No,Mailed check,Yes,Yes,Yes,Yes,697.7787107363866,No
+421,Female,61,57,Phone,24.76207608498185,Two year,Yes,Bank transfer,Yes,No,Yes,No,1417.812448579535,No
+422,Male,36,36,Both,79.559504031795,Month-to-month,Yes,Bank transfer,No,No,No,No,2869.555430338019,No
+423,Male,36,48,Internet,102.52821895545517,Two year,Yes,Bank transfer,No,Yes,Yes,Yes,5019.3619884498885,No
+424,Male,40,49,Phone,47.37931111487912,Two year,Yes,Bank transfer,Yes,Yes,No,Yes,2394.8346815097807,Yes
+425,Female,33,68,Internet,111.75394862588203,One year,Yes,Mailed check,No,Yes,No,Yes,7690.859227956025,Yes
+426,Male,33,63,Both,95.77342701180048,One year,No,Electronic check,Yes,Yes,No,No,6065.133383651824,No
+427,Male,46,38,Internet,26.130068249878473,One year,No,Credit card,No,Yes,Yes,No,1048.7223004840355,No
+428,Male,25,6,Both,77.263299667475,Two year,Yes,Mailed check,No,Yes,Yes,Yes,516.5619073715903,No
+429,Male,45,56,Both,76.74409403252656,One year,Yes,Credit card,No,No,No,No,4306.0773609606,No
+430,Male,42,47,Phone,40.23723049359802,Two year,No,Bank transfer,Yes,Yes,No,No,1910.1443357646194,Yes
+431,Male,42,39,Both,53.45443786657215,One year,No,Credit card,No,Yes,No,No,2145.822293483785,No
+432,Female,30,50,Both,65.82788935837623,Two year,No,Credit card,Yes,Yes,No,Yes,3352.72890508021,No
+433,Female,31,9,Phone,24.807782123741845,One year,Yes,Mailed check,Yes,Yes,No,No,258.5602065532321,No
+434,Female,36,66,Both,34.977640928588784,Two year,No,Electronic check,No,No,No,Yes,2407.5023181826014,No
+435,Male,32,67,Phone,36.40043891105587,Two year,Yes,Electronic check,Yes,Yes,No,Yes,2496.2132278173635,No
+436,Male,32,63,Phone,57.92357544563909,One year,Yes,Mailed check,No,Yes,Yes,No,3715.071149569093,No
+437,Female,38,17,Both,94.73574586765804,One year,No,Electronic check,No,Yes,No,Yes,1693.6979559521112,No
+438,Female,25,62,Internet,103.1303659097259,One year,No,Mailed check,Yes,No,Yes,No,6436.445727596449,Yes
+439,Female,62,67,Both,36.284904601703886,Month-to-month,Yes,Mailed check,No,Yes,No,No,2456.2612961944674,No
+440,Male,61,12,Internet,95.19060360067698,Month-to-month,No,Electronic check,No,No,Yes,No,1186.8133507254427,No
+441,Female,45,32,Both,87.07099583881694,One year,Yes,Bank transfer,Yes,No,No,No,2830.4984942588508,No
+442,Male,62,11,Phone,109.06873919138783,One year,No,Mailed check,Yes,Yes,Yes,Yes,1252.8600159009857,No
+443,Female,33,21,Both,116.87912539451719,Month-to-month,No,Electronic check,Yes,Yes,No,Yes,2501.1935987488696,No
+444,Male,41,15,Phone,32.446060880994104,One year,No,Credit card,Yes,No,No,Yes,558.471178058467,Yes
+445,Female,29,53,Internet,28.067386142081666,One year,No,Credit card,No,Yes,Yes,No,1551.1708014058688,No
+446,Female,31,30,Both,99.97301289520094,Month-to-month,No,Mailed check,No,Yes,Yes,Yes,3012.960691857745,No
+447,Female,47,6,Internet,36.217087308585846,Two year,No,Electronic check,Yes,Yes,Yes,No,239.39320933819388,No
+448,Male,49,15,Both,39.45745242572069,Month-to-month,No,Electronic check,Yes,Yes,Yes,Yes,664.884717995344,No
+449,Female,64,52,Phone,108.20359225258268,One year,Yes,Mailed check,Yes,Yes,No,No,5669.925526068576,Yes
+450,Male,36,33,Phone,113.8964897102525,One year,No,Credit card,No,No,No,Yes,3810.387919468,No
+451,Male,22,24,Both,51.8471243922974,Two year,Yes,Mailed check,Yes,No,No,No,1258.6933704284972,Yes
+452,Female,46,7,Internet,104.2168100437994,One year,No,Mailed check,Yes,No,Yes,Yes,743.6319866218929,Yes
+453,Male,19,66,Both,105.8856909563651,One year,No,Credit card,No,Yes,No,No,7012.846624761195,No
+454,Female,67,71,Both,80.53904805020363,Month-to-month,Yes,Credit card,No,Yes,No,Yes,5816.65568442494,No
+455,Male,67,41,Both,76.6088448063145,Month-to-month,Yes,Bank transfer,No,No,No,No,3212.646144536327,Yes
+456,Male,41,61,Internet,77.58384092456097,One year,No,Bank transfer,No,Yes,Yes,No,4759.954700078318,Yes
+457,Female,34,37,Both,50.128918764272285,One year,Yes,Credit card,Yes,Yes,Yes,Yes,1919.241297498654,No
+458,Male,59,13,Phone,81.88670389389907,One year,Yes,Credit card,No,No,Yes,No,1133.3427819007816,No
+459,Male,44,36,Both,44.35802711085701,One year,Yes,Mailed check,Yes,Yes,No,Yes,1686.3140844088541,No
+460,Male,66,63,Both,37.76322900756088,Two year,Yes,Credit card,Yes,No,No,Yes,2423.239615248869,No
+461,Male,20,70,Phone,61.295045442400635,Month-to-month,No,Electronic check,Yes,Yes,No,No,4316.826591755605,Yes
+462,Male,65,63,Both,90.57804229844352,Month-to-month,No,Mailed check,Yes,No,Yes,No,5735.817545567171,No
+463,Male,35,59,Internet,82.14276873514643,One year,No,Electronic check,Yes,Yes,No,Yes,4865.265261403608,No
+464,Male,38,19,Both,116.48820793397024,One year,No,Credit card,Yes,Yes,Yes,Yes,2304.5632794945245,Yes
+465,Male,56,1,Internet,84.64559113657225,One year,No,Electronic check,Yes,Yes,No,No,149.62819860147,No
+466,Male,18,2,Both,34.13140497959205,Month-to-month,Yes,Credit card,Yes,Yes,Yes,Yes,155.60394935535598,No
+467,Female,24,22,Both,36.1218213292518,One year,Yes,Mailed check,No,No,Yes,Yes,884.1718114069565,Yes
+468,Male,62,14,Both,29.306714007783214,One year,No,Mailed check,No,Yes,Yes,Yes,477.4016644527599,No
+469,Female,40,68,Internet,39.1173764997013,Two year,No,Credit card,Yes,Yes,Yes,No,2743.184037420788,No
+470,Female,33,18,Phone,79.7950900679121,Month-to-month,No,Mailed check,Yes,Yes,No,No,1451.651170583165,No
+471,Male,28,6,Both,103.82864750148154,Two year,Yes,Mailed check,Yes,Yes,Yes,Yes,676.2349745076358,No
+472,Female,52,27,Both,109.38676520674574,One year,No,Bank transfer,Yes,No,No,No,3010.121184100473,Yes
+473,Female,58,64,Both,60.00438866850485,Two year,Yes,Credit card,Yes,Yes,Yes,Yes,3847.3960590752763,No
+474,Female,56,28,Phone,75.85830285872318,Two year,Yes,Mailed check,No,No,No,Yes,2157.899053575956,No
+475,Male,39,42,Both,100.91995921508133,Month-to-month,Yes,Mailed check,Yes,No,No,No,4333.341457632811,No
+476,Male,52,14,Internet,51.20705211951691,Two year,Yes,Electronic check,No,Yes,Yes,Yes,757.4908745139522,No
+477,Female,50,46,Phone,79.56690044386951,One year,Yes,Credit card,No,No,No,Yes,3676.8453125996216,Yes
+478,Female,60,49,Internet,37.40825110536657,One year,No,Bank transfer,No,No,Yes,No,1845.446086672002,No
+479,Female,62,57,Internet,67.65403405180948,One year,Yes,Credit card,Yes,Yes,Yes,Yes,3869.9573672671568,No
+480,Female,53,59,Phone,37.30722603634683,One year,No,Electronic check,Yes,Yes,No,Yes,2271.6082913279747,No
+481,Male,59,18,Phone,66.24263902991456,Month-to-month,Yes,Electronic check,Yes,No,No,Yes,1207.267227411287,No
+482,Female,57,8,Both,59.68196917675796,One year,No,Electronic check,No,No,No,Yes,564.0616087467919,No
+483,Male,45,27,Phone,63.32648235004933,Month-to-month,Yes,Mailed check,No,No,Yes,No,1762.9541243451974,No
+484,Female,66,18,Internet,44.3712226106518,Month-to-month,Yes,Bank transfer,No,Yes,No,Yes,852.3907511519783,No
+485,Male,28,69,Both,33.60433423785061,Month-to-month,Yes,Electronic check,Yes,Yes,Yes,No,2348.893915278032,No
+486,Male,22,44,Phone,47.566532791988564,One year,Yes,Electronic check,No,Yes,Yes,Yes,2174.769764828054,No
+487,Male,35,48,Internet,43.958003924390916,Month-to-month,Yes,Bank transfer,Yes,No,No,Yes,2126.0969370179077,Yes
+488,Male,21,59,Phone,93.42962025844497,Two year,Yes,Electronic check,Yes,No,Yes,No,5591.634149397709,No
+489,Female,55,28,Both,91.6975072981546,Two year,Yes,Mailed check,No,Yes,Yes,No,2666.210788031061,No
+490,Female,48,7,Internet,78.44829937642723,One year,No,Electronic check,No,No,No,No,597.2756795342592,Yes
+491,Female,41,8,Phone,29.133379816877518,Two year,No,Mailed check,Yes,No,Yes,No,280.3106668194532,Yes
+492,Female,47,54,Both,76.6261854280033,Two year,No,Credit card,Yes,No,No,No,4235.78364471012,Yes
+493,Female,56,27,Phone,27.923702594059776,Two year,Yes,Credit card,No,No,Yes,Yes,771.3768026012034,No
+494,Male,48,38,Both,21.81730192762378,Two year,No,Credit card,No,No,Yes,Yes,887.0725451050195,No
+495,Female,29,50,Internet,55.25961151376558,Month-to-month,Yes,Bank transfer,No,No,No,No,2817.145532341999,No
+496,Male,20,21,Internet,44.05449190638994,Two year,No,Mailed check,Yes,No,Yes,No,966.7793921807281,No
+497,Female,47,57,Phone,79.46476814330425,One year,Yes,Credit card,Yes,Yes,Yes,No,4551.992553497081,Yes
+498,Male,25,62,Internet,112.86424880696137,One year,Yes,Bank transfer,No,Yes,No,No,7019.850397214015,No
+499,Female,69,56,Phone,91.98520277711921,Two year,Yes,Bank transfer,Yes,Yes,No,No,5217.976141556551,No
+500,Male,27,24,Phone,96.7360861970987,Two year,No,Mailed check,No,No,Yes,No,2369.7578160220514,No
+501,Female,41,58,Internet,115.08931103706227,Two year,Yes,Electronic check,Yes,No,No,No,6679.446533632842,No
+502,Female,18,10,Phone,83.40910808965677,Two year,Yes,Credit card,No,Yes,No,Yes,874.7634554042755,Yes
+503,Male,66,1,Phone,77.77309414098256,Two year,Yes,Credit card,No,No,Yes,Yes,142.305112508455,No
+504,Male,35,20,Internet,80.18679759527085,Month-to-month,No,Electronic check,No,No,Yes,No,1675.7425623269307,No
+505,Male,58,51,Both,106.58052565674659,One year,No,Electronic check,No,Yes,No,No,5476.161788897645,No
+506,Female,69,39,Phone,58.809903520698505,One year,No,Electronic check,Yes,Yes,Yes,No,2347.9640315805773,No
+507,Female,39,68,Phone,99.5336225388004,Month-to-month,Yes,Electronic check,No,No,No,No,6812.332197608502,No
+508,Female,48,31,Phone,85.22569349771614,Month-to-month,Yes,Credit card,Yes,Yes,No,No,2645.1374239315564,No
+509,Male,44,38,Internet,50.45715507819634,Month-to-month,Yes,Mailed check,Yes,No,Yes,No,1968.7957070992459,No
+510,Male,33,57,Both,21.368841098409167,One year,Yes,Bank transfer,Yes,Yes,No,Yes,1273.415012633287,No
+511,Female,66,6,Internet,40.991999008692,One year,Yes,Electronic check,No,Yes,No,Yes,298.32595288108865,No
+512,Male,35,60,Internet,89.99887646268611,Two year,No,Credit card,Yes,Yes,Yes,No,5486.685698055385,No
+513,Male,28,62,Internet,77.96903097452349,Month-to-month,Yes,Credit card,No,No,Yes,No,4911.898205088416,Yes
+514,Female,35,32,Both,47.45946998202861,One year,Yes,Credit card,No,Yes,Yes,No,1557.9639208203964,No
+515,Male,21,71,Internet,63.430247140102395,One year,No,Bank transfer,Yes,No,No,No,4547.534984560548,No
+516,Male,57,18,Internet,86.1148765581413,Two year,No,Electronic check,Yes,Yes,Yes,Yes,1591.7925458278003,No
+517,Male,27,32,Internet,32.708614048989695,Two year,Yes,Electronic check,No,No,Yes,Yes,1084.955701497869,No
+518,Female,47,32,Both,63.22795808512164,One year,Yes,Electronic check,Yes,No,Yes,Yes,2101.0447499791453,Yes
+519,Male,21,40,Both,61.66242149819794,Month-to-month,Yes,Mailed check,Yes,Yes,Yes,No,2555.7455385647254,No
+520,Female,25,51,Both,74.26010201202405,Two year,No,Bank transfer,Yes,No,Yes,Yes,3881.006019329545,No
+521,Male,34,39,Both,72.19136802184951,One year,No,Credit card,Yes,Yes,No,No,2863.436389666433,No
+522,Female,52,69,Internet,56.77266850678495,Two year,No,Mailed check,No,No,No,Yes,3950.7581220572106,No
+523,Male,22,40,Both,96.27336288125463,Month-to-month,No,Bank transfer,Yes,Yes,No,Yes,3940.0180051210973,No
+524,Female,44,14,Phone,26.722903999121378,One year,Yes,Electronic check,Yes,Yes,Yes,Yes,456.9598656019166,No
+525,Female,54,36,Internet,23.553847253434604,Month-to-month,No,Electronic check,Yes,No,No,No,889.9342125124223,Yes
+526,Male,24,12,Phone,62.02593395983754,Two year,No,Credit card,No,Yes,Yes,No,765.8131033217736,No
+527,Male,50,55,Both,109.66942501708142,Month-to-month,Yes,Electronic check,Yes,No,No,Yes,6076.329443815671,No
+528,Female,35,37,Phone,47.75693505296691,Month-to-month,No,Credit card,No,No,Yes,Yes,1852.7893382873474,Yes
+529,Male,55,52,Internet,37.230932469765314,Two year,No,Mailed check,No,Yes,No,Yes,2029.49399067871,No
+530,Female,45,35,Internet,112.82083943293762,Month-to-month,Yes,Bank transfer,No,No,Yes,Yes,4010.647718873412,No
+531,Male,69,59,Internet,36.822325458257026,One year,Yes,Bank transfer,Yes,No,No,No,2266.6201400380482,No
+532,Female,32,29,Phone,57.484053671352555,Two year,Yes,Bank transfer,No,No,Yes,Yes,1719.0842057034274,No
+533,Male,40,10,Internet,92.90155103364921,Month-to-month,No,Mailed check,No,Yes,No,Yes,1024.09696458351,No
+534,Male,49,9,Internet,46.092400847760175,Month-to-month,No,Bank transfer,No,No,Yes,No,489.49515479532647,No
+535,Male,26,18,Phone,42.98495277936813,Two year,No,Credit card,Yes,No,No,Yes,841.34790501506,Yes
+536,Male,47,26,Both,59.76672339315541,Month-to-month,Yes,Bank transfer,Yes,No,Yes,No,1602.3146749000327,No
+537,Female,46,60,Internet,98.73648145968252,One year,No,Credit card,No,Yes,No,Yes,5975.294534375072,No
+538,Female,49,60,Both,111.09833531625064,Two year,Yes,Mailed check,Yes,Yes,No,Yes,6675.151362616814,No
+539,Male,52,59,Both,23.129252790977375,One year,Yes,Mailed check,Yes,No,Yes,Yes,1414.797765679154,No
+540,Female,35,19,Internet,36.510812737192026,One year,No,Bank transfer,Yes,Yes,Yes,No,699.0045143214588,No
+541,Male,46,13,Phone,115.86012891469076,One year,No,Bank transfer,Yes,Yes,No,Yes,1544.828886481944,No
+542,Female,65,2,Both,79.27912915489684,Two year,No,Mailed check,No,Yes,No,No,255.10537864067578,No
+543,Female,34,28,Phone,75.14102691538197,Two year,Yes,Mailed check,Yes,No,Yes,No,2198.585085419223,No
+544,Male,26,11,Internet,101.35436792839947,One year,No,Mailed check,No,Yes,No,No,1207.344591856412,No
+545,Female,62,68,Internet,23.97832980284448,Two year,No,Mailed check,Yes,No,No,No,1645.9823778542686,Yes
+546,Male,25,62,Internet,21.383625117297484,One year,Yes,Mailed check,No,Yes,No,Yes,1377.2421802971246,No
+547,Male,30,17,Internet,116.74940497015918,One year,Yes,Credit card,No,Yes,Yes,No,2010.5124963325216,No
+548,Male,50,28,Internet,102.85706855726811,Month-to-month,Yes,Mailed check,No,Yes,Yes,Yes,2935.1725650337676,No
+549,Male,38,7,Internet,94.73817815582686,One year,No,Credit card,No,Yes,Yes,Yes,675.8944342152581,No
+550,Male,61,1,Phone,35.57007701448667,Two year,Yes,Credit card,Yes,No,No,Yes,95.10229151854334,No
+551,Female,29,8,Internet,67.660392304326,One year,No,Electronic check,Yes,Yes,No,Yes,580.6666277960596,No
+552,Female,47,26,Both,113.72935385658475,One year,Yes,Bank transfer,No,Yes,No,Yes,3002.6277528706237,No
+553,Male,58,68,Both,113.35995956239546,Month-to-month,Yes,Bank transfer,Yes,No,Yes,Yes,7781.279880322338,No
+554,Male,18,60,Internet,20.92471069795288,One year,Yes,Bank transfer,Yes,Yes,No,No,1337.5501090300322,Yes
+555,Male,38,37,Phone,95.24914090061574,One year,No,Mailed check,No,No,Yes,No,3579.23011470483,No
+556,Male,63,45,Internet,20.623776644671036,Month-to-month,Yes,Electronic check,No,No,Yes,Yes,1021.9388301535248,No
+557,Female,46,39,Internet,118.43017276705565,Month-to-month,No,Bank transfer,Yes,Yes,Yes,No,4644.157288940812,No
+558,Female,31,43,Internet,61.696720199569846,Two year,No,Electronic check,No,Yes,No,No,2752.721427655916,No
+559,Male,55,37,Internet,117.35187579800997,One year,No,Electronic check,Yes,No,No,Yes,4411.311200200524,Yes
+560,Male,65,69,Phone,56.774680903063754,One year,Yes,Mailed check,No,Yes,No,No,3926.764572572354,Yes
+561,Female,57,14,Both,49.31872905734214,Month-to-month,No,Bank transfer,No,No,No,Yes,701.5459720599837,No
+562,Male,68,14,Both,51.62919638346049,Two year,Yes,Credit card,No,No,No,No,739.9243997514989,Yes
+563,Female,22,42,Both,93.067906663859,One year,Yes,Credit card,Yes,Yes,No,No,3994.6066903738033,No
+564,Female,64,7,Both,39.9672833930197,One year,No,Electronic check,Yes,Yes,No,No,358.5996995939006,No
+565,Female,30,13,Both,106.40576917926506,Month-to-month,Yes,Mailed check,No,Yes,Yes,No,1440.7207802951375,Yes
+566,Female,55,4,Both,79.05726936267423,Month-to-month,No,Credit card,No,Yes,Yes,Yes,335.5789643249339,Yes
+567,Female,66,17,Phone,116.99110259492697,Month-to-month,No,Credit card,Yes,No,No,No,2058.2606642117535,No
+568,Female,22,6,Internet,118.70849034861486,One year,Yes,Bank transfer,Yes,Yes,No,Yes,796.487321118396,No
+569,Female,59,41,Phone,38.51820013021454,One year,Yes,Mailed check,No,No,Yes,No,1630.0120091434758,No
+570,Female,54,56,Phone,115.57820535760177,Two year,Yes,Electronic check,Yes,Yes,Yes,Yes,6541.88891707884,No
+571,Female,34,30,Phone,24.653848637918365,Month-to-month,Yes,Credit card,Yes,Yes,Yes,Yes,750.9087086264096,Yes
+572,Female,36,54,Phone,22.786372412310566,Month-to-month,Yes,Bank transfer,Yes,No,No,Yes,1304.0177657964682,No
+573,Female,55,23,Phone,114.38645773285519,Month-to-month,No,Bank transfer,Yes,No,Yes,No,2729.52443072431,Yes
+574,Male,48,24,Phone,116.23967374499934,One year,No,Bank transfer,Yes,Yes,Yes,No,2814.738282746454,No
+575,Male,64,37,Internet,34.72476726719897,Two year,Yes,Bank transfer,No,No,No,No,1358.3535090715645,No
+576,Female,53,60,Phone,64.24158153889981,Two year,No,Bank transfer,No,Yes,No,Yes,3948.0702328838815,No
+577,Female,66,35,Phone,69.40925279881824,Month-to-month,No,Mailed check,Yes,No,Yes,No,2454.208518382268,Yes
+578,Female,18,71,Both,106.02812365183044,One year,Yes,Bank transfer,Yes,Yes,No,Yes,7586.380732869823,No
+579,Female,67,7,Both,82.7917243196169,Month-to-month,No,Mailed check,Yes,Yes,Yes,Yes,659.1837543517706,No
+580,Male,27,18,Internet,97.45664242016154,Month-to-month,No,Bank transfer,No,No,Yes,Yes,1768.0548559109388,No
+581,Male,68,49,Phone,68.5096845431291,Two year,No,Electronic check,Yes,Yes,No,No,3372.1190102271744,No
+582,Female,51,38,Both,84.84137022418282,Two year,No,Mailed check,No,No,Yes,No,3254.6600158397664,No
+583,Male,66,1,Phone,93.54093600258587,One year,No,Electronic check,No,No,No,Yes,154.34172032372695,Yes
+584,Male,67,5,Both,93.78812839173014,Month-to-month,No,Credit card,No,Yes,No,Yes,529.0632965512592,No
+585,Female,30,61,Both,20.173782678467237,Month-to-month,No,Mailed check,Yes,No,No,Yes,1261.6193002201953,No
+586,Male,24,11,Both,29.99080737300606,One year,No,Bank transfer,Yes,No,Yes,Yes,410.39865585315977,Yes
+587,Female,69,30,Both,56.3660441104416,Month-to-month,No,Bank transfer,No,No,Yes,No,1716.3981962454723,No
+588,Male,54,14,Phone,26.11974471035418,One year,No,Mailed check,No,Yes,No,No,379.03392728806375,No
+589,Female,53,20,Internet,58.2989702367717,One year,No,Credit card,Yes,No,No,No,1205.5691061338812,No
+590,Male,56,42,Both,58.95668484721922,One year,No,Bank transfer,Yes,Yes,Yes,Yes,2555.5785429778834,Yes
+591,Male,54,45,Both,112.02335372777397,Two year,Yes,Mailed check,No,No,Yes,No,5099.741761551383,No
+592,Female,48,52,Internet,76.70718548946908,Month-to-month,Yes,Mailed check,Yes,No,Yes,Yes,4038.1346575699567,No
+593,Male,68,17,Phone,90.63512805336583,Two year,Yes,Bank transfer,No,Yes,Yes,No,1602.027898619833,No
+594,Male,37,38,Both,108.71986820862284,Two year,No,Bank transfer,No,No,Yes,Yes,4219.762670278608,Yes
+595,Male,56,15,Internet,64.21293206493173,One year,No,Credit card,No,Yes,Yes,No,1012.2648396329266,Yes
+596,Male,62,37,Phone,20.19621445973822,One year,Yes,Bank transfer,Yes,No,Yes,Yes,760.5642234771698,Yes
+597,Male,53,5,Phone,48.533602462541374,Month-to-month,No,Mailed check,No,Yes,No,No,301.0378116193264,No
+598,Female,32,48,Phone,101.4158700037487,One year,No,Electronic check,Yes,Yes,No,No,4927.758336114996,No
+599,Male,47,1,Phone,110.18411698000747,Month-to-month,Yes,Mailed check,No,No,No,No,138.73973081668345,No
+600,Female,69,50,Phone,55.150958111822106,Month-to-month,No,Mailed check,Yes,Yes,Yes,Yes,2776.974485270703,No
+601,Male,35,38,Both,49.39912529790484,Month-to-month,No,Credit card,No,Yes,Yes,Yes,1916.092544418668,Yes
+602,Male,21,45,Both,112.45052110687334,Month-to-month,No,Bank transfer,Yes,No,Yes,No,5112.911905865558,No
+603,Female,47,70,Phone,55.107373598278,Month-to-month,No,Bank transfer,No,Yes,No,Yes,3917.0042182500483,No
+604,Female,45,17,Internet,85.22451880766583,One year,No,Credit card,No,Yes,Yes,Yes,1487.231799843306,No
+605,Female,21,17,Phone,48.030923505056336,Two year,Yes,Bank transfer,No,Yes,No,No,836.7739909983967,No
+606,Female,51,11,Both,29.791879879074152,Month-to-month,No,Electronic check,Yes,Yes,Yes,Yes,414.59744933716206,No
+607,Male,69,6,Internet,70.12363117860134,Two year,No,Electronic check,Yes,No,No,Yes,464.2287563184791,No
+608,Male,45,24,Both,112.32318371181675,Month-to-month,No,Mailed check,Yes,Yes,No,Yes,2780.4553760193703,No
+609,Female,54,48,Both,81.8640753927305,Two year,No,Mailed check,No,Yes,No,No,4014.0153278051716,No
+610,Male,39,68,Internet,40.88266247837343,Two year,No,Mailed check,No,No,Yes,No,2836.108528863505,Yes
+611,Female,57,39,Phone,88.24295733676131,Month-to-month,No,Credit card,Yes,No,No,No,3519.2285700407865,No
+612,Female,60,19,Phone,96.83611440976325,One year,No,Electronic check,Yes,Yes,Yes,Yes,1892.6855361530554,No
+613,Female,28,32,Both,52.07605619149588,One year,Yes,Electronic check,Yes,No,Yes,Yes,1751.108544096968,No
+614,Female,47,43,Internet,75.92094014310385,One year,No,Mailed check,No,Yes,No,No,3316.4747787017936,No
+615,Male,67,48,Internet,88.19531314673225,One year,Yes,Credit card,Yes,Yes,No,No,4239.798602828419,No
+616,Male,47,22,Both,36.035314538048816,Two year,Yes,Mailed check,Yes,Yes,Yes,No,843.753737455288,No
+617,Female,42,56,Internet,116.41009397724625,Month-to-month,Yes,Bank transfer,No,Yes,Yes,No,6606.549854263629,No
+618,Male,68,32,Both,65.12519614498419,Month-to-month,Yes,Electronic check,No,No,Yes,Yes,2129.4478776105666,No
+619,Male,34,67,Internet,117.96643904720663,One year,Yes,Mailed check,No,Yes,Yes,Yes,7983.38358669976,No
+620,Female,18,20,Phone,38.95738658444951,Month-to-month,No,Credit card,Yes,No,Yes,No,779.7927576321439,No
+621,Female,54,32,Both,68.37735463096445,Month-to-month,No,Mailed check,No,No,No,No,2282.9249999966787,No
+622,Female,52,20,Internet,36.58536536758377,Month-to-month,Yes,Electronic check,No,No,No,No,808.3449134443858,No
+623,Male,31,40,Internet,21.01808223839387,Two year,No,Bank transfer,No,Yes,Yes,Yes,852.5215850619924,No
+624,Male,19,40,Internet,43.78751725752028,Month-to-month,Yes,Bank transfer,Yes,Yes,Yes,Yes,1819.3167293341508,No
+625,Male,20,62,Both,60.31873370680834,Month-to-month,Yes,Electronic check,Yes,No,No,Yes,3754.709606274256,No
+626,Female,20,45,Internet,63.11307377242357,One year,Yes,Mailed check,No,No,No,No,2920.8802771044534,No
+627,Female,37,55,Internet,108.65051551042046,Two year,No,Electronic check,No,No,No,Yes,5982.801773487235,No
+628,Male,30,63,Internet,83.5677263880842,Two year,No,Credit card,No,Yes,No,Yes,5284.066185915269,No
+629,Female,48,17,Both,63.444165521853016,Month-to-month,Yes,Credit card,Yes,No,No,Yes,1133.2460702058024,Yes
+630,Male,57,7,Both,118.79976996098128,Month-to-month,Yes,Mailed check,Yes,Yes,Yes,Yes,869.7044249905615,No
+631,Male,39,69,Phone,81.42243316266857,Two year,No,Electronic check,Yes,Yes,No,No,5653.696861667808,No
+632,Male,31,46,Both,52.26629649849716,Month-to-month,Yes,Credit card,No,Yes,Yes,No,2439.1180332463136,No
+633,Female,67,31,Both,89.13108812107947,Month-to-month,Yes,Bank transfer,Yes,Yes,No,Yes,2770.1725504380215,No
+634,Female,44,54,Both,69.56999226830051,One year,Yes,Mailed check,Yes,No,No,No,3772.5226931414973,No
+635,Male,69,34,Phone,108.11676940681721,Two year,Yes,Credit card,Yes,Yes,Yes,No,3716.230586942163,Yes
+636,Female,30,19,Phone,109.65112620633212,One year,No,Mailed check,No,No,No,No,2133.018078118263,No
+637,Male,67,7,Internet,56.73504001211696,One year,Yes,Bank transfer,Yes,Yes,No,Yes,400.90801230260166,No
+638,Female,18,3,Both,76.2339050860144,One year,No,Bank transfer,No,No,Yes,Yes,317.02796245297964,No
+639,Male,19,27,Internet,46.577344404630544,Two year,Yes,Bank transfer,No,Yes,No,Yes,1307.2080970562806,No
+640,Male,54,26,Internet,82.66367517425499,Month-to-month,No,Mailed check,Yes,No,Yes,No,2151.6372972190347,No
+641,Female,28,14,Internet,119.23469623196748,One year,Yes,Bank transfer,No,No,Yes,Yes,1724.0769197976424,No
+642,Male,60,64,Both,103.25885178221839,Month-to-month,No,Credit card,Yes,No,Yes,No,6680.659859884243,No
+643,Male,50,63,Both,56.64099003028253,One year,Yes,Bank transfer,Yes,No,Yes,No,3597.909148384857,No
+644,Male,46,58,Phone,29.53803519934925,Month-to-month,Yes,Credit card,No,Yes,Yes,Yes,1795.0231818711868,No
+645,Male,20,38,Phone,116.66819873735142,One year,Yes,Mailed check,No,No,No,No,4511.29730636036,Yes
+646,Male,46,46,Internet,58.958477867772025,Month-to-month,No,Bank transfer,No,Yes,No,Yes,2800.6525392995886,No
+647,Female,19,22,Internet,49.33808932668151,Month-to-month,Yes,Electronic check,No,Yes,Yes,No,1142.3890586389218,No
+648,Female,31,70,Both,51.633539290556755,One year,No,Credit card,Yes,No,No,Yes,3651.36150101677,No
+649,Female,37,50,Phone,68.99233666388467,Month-to-month,Yes,Credit card,No,No,Yes,No,3483.2921805181577,Yes
+650,Female,65,26,Internet,115.67513987490005,One year,No,Electronic check,No,No,Yes,No,3010.0988671107307,No
+651,Female,35,13,Internet,118.66223213334914,One year,No,Credit card,No,Yes,Yes,No,1543.707713384709,No
+652,Female,54,53,Phone,49.612672735239556,Two year,No,Electronic check,Yes,No,No,Yes,2633.979583399121,No
+653,Female,25,71,Both,55.14687077474851,One year,Yes,Credit card,No,No,No,Yes,3943.8667275450875,Yes
+654,Female,24,48,Internet,71.1806560066037,Month-to-month,No,Bank transfer,No,No,No,No,3494.968022786811,No
+655,Male,27,11,Both,20.818728862973593,Month-to-month,Yes,Mailed check,No,Yes,Yes,Yes,237.81693032964205,No
+656,Male,33,17,Internet,37.483656324410916,Two year,No,Bank transfer,No,No,Yes,No,673.826803020652,Yes
+657,Male,36,39,Both,113.60590205048064,Two year,Yes,Credit card,No,Yes,Yes,No,4481.8794964180615,No
+658,Male,47,49,Internet,22.94352370613612,One year,No,Electronic check,Yes,Yes,No,Yes,1155.3937929463145,Yes
+659,Female,60,61,Internet,30.09762797205438,Month-to-month,No,Bank transfer,No,No,No,Yes,1862.1539458455652,No
+660,Female,36,7,Internet,62.064701703371874,Two year,No,Bank transfer,No,No,Yes,Yes,457.77515249457565,No
+661,Female,20,71,Both,93.1450249159012,Month-to-month,No,Mailed check,No,Yes,No,No,6702.340444836748,No
+662,Female,47,2,Phone,46.887823039034856,Two year,Yes,Electronic check,No,No,Yes,No,122.01508218776077,No
+663,Male,35,64,Both,50.59655905538909,Month-to-month,No,Electronic check,No,No,Yes,Yes,3293.0876405821605,No
+664,Female,53,66,Both,50.547298012438674,Month-to-month,Yes,Electronic check,Yes,Yes,No,No,3353.742463652256,Yes
+665,Male,37,22,Both,107.26019267536064,Two year,No,Credit card,Yes,Yes,Yes,Yes,2410.9133263136778,No
+666,Male,34,47,Internet,42.60976062274179,Month-to-month,Yes,Bank transfer,No,No,No,Yes,2085.3263863202187,No
+667,Female,41,1,Internet,76.24018260131903,One year,Yes,Electronic check,No,Yes,No,Yes,106.88108191236188,No
+668,Female,30,37,Both,119.99311470188161,One year,Yes,Bank transfer,Yes,No,No,No,4442.026390271103,No
+669,Female,53,27,Both,92.84654948930182,Month-to-month,No,Electronic check,No,Yes,Yes,No,2559.684751002603,No
+670,Male,63,21,Internet,53.635065529692596,One year,No,Mailed check,No,Yes,No,No,1204.3236879443273,No
+671,Female,20,35,Phone,96.54589703324095,Month-to-month,Yes,Electronic check,No,No,Yes,Yes,3464.1052722556974,Yes
+672,Female,38,62,Internet,115.39157073856089,One year,No,Electronic check,Yes,No,Yes,No,7215.966887016192,No
+673,Female,21,31,Internet,57.35378071525843,Two year,Yes,Mailed check,Yes,Yes,No,No,1810.1047104456732,No
+674,Male,35,28,Both,90.80112400693307,Month-to-month,Yes,Bank transfer,No,No,Yes,No,2615.5549761207735,No
+675,Female,62,53,Both,27.580426311938915,Month-to-month,No,Electronic check,No,No,No,No,1560.9741633426156,No
+676,Female,56,24,Internet,109.52968367541418,One year,No,Electronic check,Yes,Yes,Yes,Yes,2681.2485919104197,No
+677,Female,60,63,Both,29.6256724624312,Two year,Yes,Mailed check,Yes,Yes,Yes,Yes,1871.5641589539525,No
+678,Female,28,49,Internet,57.292509626159465,Month-to-month,Yes,Credit card,No,Yes,Yes,No,2895.2824399206984,Yes
+679,Female,55,60,Phone,74.25058428622357,Two year,No,Credit card,Yes,No,Yes,Yes,4503.169741391853,Yes
+680,Male,60,44,Both,46.35776424502188,Month-to-month,No,Mailed check,Yes,Yes,Yes,No,2044.1770561697226,Yes
+681,Male,58,43,Phone,84.92693259871776,One year,Yes,Bank transfer,No,No,Yes,No,3732.329299410979,Yes
+682,Female,65,14,Internet,75.44287273924115,One year,Yes,Mailed check,No,No,No,No,1097.5340552255482,No
+683,Male,45,10,Phone,91.71852402981061,Two year,No,Electronic check,No,No,No,Yes,975.9337045070791,No
+684,Male,22,28,Both,55.41393651221608,One year,No,Electronic check,Yes,Yes,No,Yes,1567.9284723674627,No
+685,Male,69,35,Phone,74.60138896526735,Two year,No,Bank transfer,Yes,Yes,No,Yes,2656.8601171848745,No
+686,Female,40,71,Both,101.2185400181229,One year,Yes,Mailed check,No,No,No,No,7210.5745799343995,No
+687,Male,55,42,Phone,101.06963460014556,Two year,Yes,Bank transfer,Yes,Yes,Yes,Yes,4274.695516951344,No
+688,Female,53,38,Both,91.42399748518815,One year,Yes,Mailed check,No,Yes,No,No,3477.952148291155,No
+689,Male,48,7,Internet,74.19358896149794,Two year,No,Electronic check,No,Yes,No,Yes,617.685828546058,No
+690,Female,25,59,Phone,87.32611007744953,One year,Yes,Electronic check,Yes,Yes,No,Yes,5196.400450498287,No
+691,Male,42,4,Phone,28.688029011205078,Two year,No,Bank transfer,Yes,Yes,No,No,205.14095703324557,No
+692,Female,42,12,Phone,67.13172007107326,Month-to-month,No,Mailed check,Yes,Yes,Yes,Yes,837.4761399542024,No
+693,Female,65,30,Both,106.0143500304649,Two year,No,Electronic check,No,Yes,Yes,No,3242.734392915713,No
+694,Male,33,27,Phone,80.73648217266424,One year,No,Electronic check,Yes,No,No,No,2230.5202173106095,No
+695,Female,28,36,Phone,114.168310582509,One year,Yes,Mailed check,No,Yes,Yes,Yes,4208.038285074263,Yes
+696,Male,37,53,Both,46.217852129408094,Month-to-month,Yes,Bank transfer,No,Yes,No,Yes,2479.0471640261844,No
+697,Male,31,18,Both,29.630180211077544,One year,Yes,Bank transfer,No,Yes,Yes,No,624.5426432552017,No
+698,Male,57,11,Phone,82.66134356038866,Month-to-month,Yes,Bank transfer,No,Yes,No,No,1005.6517799512014,Yes
+699,Female,55,61,Phone,29.09259298203804,Two year,No,Credit card,No,Yes,Yes,Yes,1853.4898884883958,No
+700,Male,57,26,Both,98.21353634244159,One year,No,Bank transfer,No,No,No,No,2596.362820507537,No
+701,Female,36,27,Phone,45.67424081490572,Month-to-month,Yes,Bank transfer,Yes,Yes,Yes,Yes,1316.6227322146217,No
+702,Male,25,52,Phone,73.87518584436566,Month-to-month,Yes,Electronic check,No,No,No,Yes,3866.962865640601,No
+703,Female,42,28,Internet,101.13770403016125,One year,Yes,Mailed check,Yes,Yes,No,Yes,2903.193149921983,No
+704,Female,50,5,Internet,98.80353687003,Month-to-month,Yes,Bank transfer,No,No,Yes,No,567.3362337407992,No
+705,Male,62,54,Phone,69.59750270792085,Month-to-month,Yes,Credit card,Yes,No,No,Yes,3815.9421389629165,No
+706,Female,57,24,Internet,117.58464133154727,Two year,No,Electronic check,Yes,Yes,No,Yes,2919.5503905105707,No
+707,Female,58,23,Internet,69.76331570908407,Two year,No,Bank transfer,No,Yes,Yes,Yes,1636.4969215103538,No
+708,Male,65,44,Both,47.87914166910554,Two year,No,Bank transfer,No,Yes,No,Yes,2146.185855034294,No
+709,Female,54,7,Phone,50.24312445516868,Month-to-month,No,Credit card,Yes,No,No,Yes,368.18401230620236,No
+710,Female,60,14,Phone,94.36427238772701,One year,Yes,Credit card,Yes,Yes,No,No,1392.295187768919,No
+711,Female,34,18,Internet,63.71070388905937,Two year,Yes,Electronic check,No,Yes,No,Yes,1214.1338935132278,No
+712,Female,44,41,Internet,61.878848478549024,One year,Yes,Credit card,Yes,No,Yes,No,2553.520059081143,Yes
+713,Female,58,69,Phone,22.048659526993447,Two year,No,Bank transfer,No,No,Yes,No,1527.427465629166,Yes
+714,Male,34,19,Both,50.52781604210493,Month-to-month,Yes,Mailed check,Yes,No,No,Yes,1043.983384385543,No
+715,Male,64,3,Phone,106.03830798416068,Two year,Yes,Credit card,Yes,Yes,Yes,Yes,396.6852408292111,No
+716,Female,50,28,Both,100.3504498227147,One year,No,Bank transfer,No,No,Yes,Yes,2853.8880696054125,Yes
+717,Female,48,9,Phone,94.65108599826601,Month-to-month,No,Electronic check,Yes,Yes,No,No,927.9554857026835,No
+718,Female,38,52,Phone,22.31283866757199,One year,Yes,Mailed check,No,No,Yes,Yes,1222.716424148657,Yes
+719,Female,41,48,Both,22.69902914316932,Month-to-month,No,Electronic check,Yes,No,Yes,No,1179.8019848432489,No
+720,Male,33,64,Both,51.146495939088254,One year,No,Bank transfer,Yes,No,Yes,No,3280.608513286482,No
+721,Female,62,31,Both,67.44532722181333,Two year,Yes,Mailed check,No,Yes,Yes,Yes,2118.9688366093096,Yes
+722,Male,37,14,Both,110.97412679862697,Month-to-month,Yes,Electronic check,Yes,No,Yes,No,1631.8063933585795,No
+723,Male,52,47,Both,58.46298160055394,One year,No,Bank transfer,Yes,Yes,No,Yes,2828.952110239261,No
+724,Female,45,15,Both,48.85250028628927,Month-to-month,No,Electronic check,Yes,No,Yes,Yes,827.4222440560023,No
+725,Male,63,47,Both,77.11529683047127,One year,Yes,Credit card,Yes,No,No,Yes,3717.343536323896,Yes
+726,Female,52,46,Internet,111.46942995496946,One year,No,Bank transfer,Yes,No,Yes,Yes,5136.602698013881,Yes
+727,Male,35,5,Phone,93.86387114622501,Month-to-month,Yes,Mailed check,Yes,No,No,Yes,528.1939270752246,No
+728,Female,41,11,Both,105.66662819793105,Two year,No,Bank transfer,Yes,No,Yes,Yes,1256.2280570577636,No
+729,Female,45,64,Internet,38.21976449230329,Month-to-month,Yes,Mailed check,Yes,No,Yes,No,2477.6748383973095,No
+730,Male,31,19,Phone,32.56644453137924,Two year,Yes,Credit card,No,No,Yes,Yes,664.6310570503842,Yes
+731,Female,66,59,Phone,74.4071133688893,One year,No,Electronic check,Yes,No,No,Yes,4431.368281500684,No
+732,Female,41,14,Phone,89.737082571725,Month-to-month,Yes,Mailed check,No,No,Yes,Yes,1355.9734466684704,No
+733,Male,48,13,Internet,115.49880481625318,Month-to-month,Yes,Electronic check,No,No,Yes,Yes,1550.4312540528658,No
+734,Female,23,30,Internet,57.15344084564789,Two year,Yes,Bank transfer,Yes,Yes,Yes,Yes,1762.1207384802642,No
+735,Male,57,10,Phone,54.65568522036966,Two year,No,Bank transfer,Yes,Yes,No,Yes,643.9310798687429,No
+736,Male,51,47,Internet,71.58542979015846,Month-to-month,Yes,Mailed check,Yes,No,Yes,Yes,3463.0053566270776,No
+737,Male,67,61,Internet,88.49379367067088,Month-to-month,No,Credit card,No,Yes,No,Yes,5402.156946580333,No
+738,Male,52,30,Both,76.60237771153032,One year,Yes,Bank transfer,No,Yes,No,Yes,2363.2542343004798,No
+739,Female,46,25,Internet,92.3030693332596,Month-to-month,No,Electronic check,No,No,Yes,No,2396.5919842087014,Yes
+740,Male,19,60,Phone,58.03149371124904,Month-to-month,Yes,Bank transfer,Yes,No,Yes,No,3535.345968739555,Yes
+741,Male,22,16,Phone,106.21976301852416,Month-to-month,No,Bank transfer,Yes,No,No,Yes,1751.2244714117705,Yes
+742,Female,39,55,Internet,38.29755935839597,One year,No,Credit card,Yes,Yes,No,No,2178.7731499934594,No
+743,Male,26,33,Internet,51.5904642828328,Two year,Yes,Electronic check,No,No,No,Yes,1785.004311401473,No
+744,Male,68,12,Phone,97.36776637703174,Month-to-month,Yes,Mailed check,Yes,Yes,Yes,Yes,1260.682441259891,No
+745,Male,51,16,Phone,53.56722539793957,Month-to-month,No,Bank transfer,Yes,No,No,Yes,866.9831273559697,Yes
+746,Female,53,26,Internet,86.81546023700152,One year,No,Bank transfer,Yes,Yes,No,No,2334.0710636086887,No
+747,Male,66,22,Internet,48.77976092729607,Month-to-month,No,Bank transfer,Yes,No,Yes,No,1112.2444929767016,No
+748,Female,53,23,Both,38.710434243329274,Two year,No,Credit card,No,Yes,No,No,896.3979934172828,No
+749,Male,43,31,Phone,50.07325639531537,One year,No,Bank transfer,No,Yes,No,Yes,1622.6283286185758,No
+750,Male,23,42,Internet,108.699329703788,One year,Yes,Bank transfer,No,No,Yes,No,4575.007119838026,No
+751,Male,19,10,Internet,66.0883128691712,Month-to-month,No,Mailed check,Yes,No,No,No,741.3953315393761,No
+752,Male,53,53,Internet,42.54151537382285,Month-to-month,Yes,Mailed check,No,No,Yes,No,2275.2728901614087,No
+753,Female,25,44,Phone,52.1438589165044,Two year,Yes,Electronic check,Yes,No,No,No,2305.8307110147603,No
+754,Female,19,51,Both,20.277095662568193,One year,Yes,Mailed check,No,Yes,No,Yes,1100.7798552374538,Yes
+755,Female,19,17,Internet,95.58082877570287,One year,No,Electronic check,No,Yes,Yes,No,1712.2301399815622,Yes
+756,Male,25,65,Both,42.567745243280186,One year,No,Mailed check,No,No,Yes,No,2837.075306228517,No
+757,Male,43,27,Phone,79.79210402705024,One year,No,Electronic check,Yes,Yes,No,No,2197.081225718853,No
+758,Female,54,8,Both,22.510953817714313,One year,No,Electronic check,Yes,No,Yes,No,246.76998363477523,No
+759,Female,31,55,Both,103.44984319735175,Two year,No,Bank transfer,Yes,No,No,Yes,5716.894534240193,No
+760,Male,62,59,Both,38.744475363635516,Two year,Yes,Credit card,Yes,No,No,Yes,2367.6891884251386,No
+761,Female,68,58,Phone,20.476837776426997,Two year,No,Electronic check,Yes,Yes,Yes,No,1189.5002773298354,No
+762,Female,45,59,Phone,50.118780836542555,One year,No,Credit card,Yes,Yes,No,Yes,3020.422742874657,No
+763,Male,50,14,Internet,112.04871188372718,Two year,Yes,Bank transfer,No,No,Yes,No,1634.1577086821728,No
+764,Female,61,19,Internet,46.26142180446358,One year,No,Electronic check,No,No,Yes,Yes,972.0250619742474,No
+765,Female,37,18,Internet,70.34788381179114,Two year,No,Electronic check,Yes,Yes,Yes,Yes,1318.0274189920221,No
+766,Male,52,43,Both,60.722984435770435,Month-to-month,No,Credit card,No,Yes,No,No,2682.4745497345643,No
+767,Female,63,45,Both,49.424925833208675,Month-to-month,Yes,Bank transfer,Yes,No,No,No,2310.31174562216,No
+768,Male,54,71,Both,112.73535786015708,One year,Yes,Credit card,No,No,No,No,8032.943755239223,No
+769,Female,34,47,Phone,98.89949080537266,Two year,No,Credit card,Yes,Yes,No,No,4713.8537477802365,No
+770,Female,66,55,Internet,96.19133153738572,Month-to-month,No,Mailed check,No,Yes,No,Yes,5365.991591991113,No
+771,Male,60,51,Phone,72.61071244812398,One year,No,Mailed check,No,Yes,No,No,3723.0333431299205,Yes
+772,Male,61,44,Both,102.48616737298372,Month-to-month,No,Mailed check,Yes,No,No,No,4593.750899467653,No
+773,Male,21,66,Internet,65.84286582112537,Month-to-month,Yes,Bank transfer,No,Yes,No,Yes,4403.041269895561,No
+774,Male,26,7,Phone,66.51895504715557,One year,No,Bank transfer,No,No,No,Yes,521.6988056736882,Yes
+775,Female,37,48,Internet,69.37740634134637,Month-to-month,Yes,Mailed check,Yes,Yes,Yes,Yes,3365.8900563156053,Yes
+776,Female,64,45,Internet,43.6910225224571,Month-to-month,Yes,Bank transfer,No,No,Yes,No,1975.632315241025,Yes
+777,Male,18,10,Internet,112.36518593869899,One year,Yes,Bank transfer,Yes,Yes,No,No,1192.8680847819282,No
+778,Male,38,4,Both,45.87506748785492,One year,Yes,Mailed check,Yes,No,No,Yes,220.62739736959446,No
+779,Female,50,10,Both,39.815949993946504,One year,Yes,Mailed check,Yes,Yes,No,Yes,450.48276046263385,Yes
+780,Female,52,35,Internet,44.37517933315853,Month-to-month,No,Mailed check,No,Yes,Yes,Yes,1651.2731043987424,No
+781,Male,61,2,Both,101.7352116565939,Two year,Yes,Credit card,Yes,No,No,No,231.30204444430484,Yes
+782,Male,23,39,Phone,96.85456376763617,One year,Yes,Mailed check,Yes,Yes,Yes,No,3790.5641141456463,No
+783,Male,39,51,Phone,62.71068084560682,Two year,Yes,Mailed check,Yes,Yes,No,Yes,3212.202596363223,No
+784,Female,42,14,Phone,21.37819046245825,Two year,No,Credit card,No,No,Yes,Yes,336.66328199404757,No
+785,Male,20,47,Both,117.57350332508857,Month-to-month,No,Mailed check,No,No,Yes,No,5617.831554659885,No
+786,Female,25,38,Internet,33.253097749036336,One year,Yes,Bank transfer,No,Yes,No,No,1298.3422567848531,No
+787,Male,62,7,Phone,105.14226765922393,Month-to-month,Yes,Bank transfer,No,No,No,No,740.7856527724776,No
+788,Male,29,44,Phone,98.17230866307524,One year,Yes,Electronic check,Yes,Yes,No,Yes,4389.831400747267,Yes
+789,Female,69,2,Both,113.8075781711365,One year,Yes,Credit card,Yes,No,Yes,Yes,300.92144278469334,Yes
+790,Male,46,49,Both,97.33985390852888,Two year,No,Bank transfer,Yes,Yes,Yes,Yes,4849.5523825459095,No
+791,Male,49,18,Both,53.13715908270286,Month-to-month,No,Electronic check,Yes,No,No,Yes,1008.0180206016223,No
+792,Male,19,20,Internet,43.19140434141694,Two year,Yes,Mailed check,No,No,Yes,No,921.2166175461967,Yes
+793,Female,34,20,Internet,57.769082040641486,Month-to-month,No,Electronic check,No,Yes,Yes,Yes,1210.4210152202506,No
+794,Female,68,66,Both,40.30871705166746,Two year,Yes,Credit card,No,Yes,No,No,2705.0299087596636,No
+795,Male,36,28,Phone,91.95747477449508,One year,Yes,Mailed check,No,No,No,Yes,2629.704019673878,No
+796,Male,32,36,Both,102.65186324941105,One year,Yes,Credit card,Yes,No,No,No,3756.8595210853146,No
+797,Male,39,10,Phone,84.6438892397248,One year,No,Electronic check,No,No,No,No,847.6036283791484,No
+798,Female,65,14,Both,38.60927313091021,Month-to-month,No,Bank transfer,No,Yes,Yes,Yes,639.0129981729514,No
+799,Male,65,54,Internet,23.738471102864573,One year,Yes,Mailed check,Yes,Yes,Yes,Yes,1324.857804215435,No
+800,Male,23,71,Phone,78.04012668569645,Month-to-month,No,Mailed check,Yes,Yes,No,No,5600.8788516557115,No
+801,Female,51,11,Internet,66.26731050796135,Two year,No,Bank transfer,Yes,Yes,Yes,Yes,747.5720664824919,No
+802,Male,60,44,Phone,39.97039281990324,Two year,No,Electronic check,No,No,No,No,1832.7510688092311,Yes
+803,Female,20,6,Phone,56.80839022202911,Two year,No,Credit card,Yes,Yes,No,Yes,381.08070273774143,No
+804,Male,45,41,Both,74.14662556089533,One year,Yes,Bank transfer,Yes,Yes,No,No,3079.053446792732,No
+805,Male,58,16,Phone,83.29171122765796,Month-to-month,No,Bank transfer,Yes,No,Yes,Yes,1395.8126456318832,No
+806,Female,37,15,Both,67.66437775428183,One year,Yes,Mailed check,No,Yes,Yes,Yes,1017.7838242057376,No
+807,Female,33,1,Internet,117.13928217354079,One year,Yes,Mailed check,Yes,No,No,No,142.72382321623715,No
+808,Male,25,36,Both,24.622640047085603,One year,Yes,Electronic check,No,Yes,Yes,Yes,975.2668131987523,No
+809,Male,62,15,Internet,85.82079130268984,Month-to-month,Yes,Bank transfer,Yes,No,No,No,1361.1220867111904,No
+810,Female,47,7,Internet,110.95579017878256,Month-to-month,Yes,Mailed check,Yes,No,Yes,No,843.8909371045357,No
+811,Female,53,4,Both,43.6564211113225,One year,No,Mailed check,No,No,No,Yes,217.62329466221377,No
+812,Female,51,69,Phone,41.37071880691377,One year,Yes,Electronic check,Yes,No,No,No,2882.891963830113,Yes
+813,Male,66,28,Internet,96.22328074825822,Month-to-month,Yes,Electronic check,Yes,Yes,Yes,Yes,2776.225448031371,No
+814,Male,67,68,Phone,68.6373794105236,One year,Yes,Electronic check,Yes,No,No,No,4736.551346191656,No
+815,Male,34,35,Internet,119.2177506697882,Month-to-month,No,Credit card,No,No,Yes,No,4233.664959311388,No
+816,Male,42,42,Internet,78.91236204917122,Two year,Yes,Bank transfer,No,Yes,Yes,No,3315.2898924964566,No
+817,Male,23,14,Internet,112.34419334879928,Two year,Yes,Credit card,No,No,No,Yes,1593.42118231317,No
+818,Female,69,18,Both,21.22105196634219,One year,No,Electronic check,No,No,Yes,No,406.030177457904,Yes
+819,Male,60,41,Both,35.45396204757051,Month-to-month,Yes,Credit card,No,Yes,Yes,No,1455.9523290491238,Yes
+820,Male,37,39,Internet,88.44190447515896,Month-to-month,Yes,Bank transfer,No,Yes,No,Yes,3488.6568389679,No
+821,Male,35,43,Both,61.6466369897446,One year,Yes,Bank transfer,Yes,No,No,No,2727.8087444145917,No
+822,Male,63,68,Both,103.59645694289803,One year,No,Credit card,No,No,No,No,7081.833856148611,No
+823,Male,50,28,Internet,62.88980925565181,Month-to-month,No,Credit card,No,Yes,Yes,Yes,1811.9516387536967,No
+824,Female,40,61,Internet,91.29966963549856,Two year,Yes,Bank transfer,Yes,No,No,Yes,5610.1364005670775,Yes
+825,Female,51,16,Both,76.61600170334582,One year,Yes,Mailed check,No,No,No,No,1245.041239962813,No
+826,Female,56,35,Both,31.990356732862285,Month-to-month,No,Credit card,No,No,Yes,No,1204.862033117939,No
+827,Female,27,51,Internet,91.79512067070324,Two year,No,Electronic check,Yes,Yes,Yes,No,4776.46012375274,No
+828,Female,23,45,Both,90.6371801347698,One year,Yes,Bank transfer,Yes,Yes,No,No,4157.734173499166,Yes
+829,Male,30,53,Internet,31.57181512132147,Two year,Yes,Mailed check,Yes,No,Yes,Yes,1711.6693581425268,Yes
+830,Male,60,26,Phone,76.1911457807729,Two year,No,Bank transfer,No,No,No,No,2064.489447234009,No
+831,Female,34,45,Internet,53.56500175487184,One year,Yes,Electronic check,Yes,No,No,Yes,2495.6649218596212,Yes
+832,Female,35,6,Internet,65.88497820457755,Month-to-month,No,Electronic check,No,No,No,Yes,416.8261009425832,Yes
+833,Female,22,69,Internet,62.2758693030776,Month-to-month,No,Bank transfer,Yes,Yes,Yes,Yes,4324.226126816646,No
+834,Female,43,33,Phone,30.47744042491886,Month-to-month,No,Electronic check,Yes,No,Yes,No,1039.220466323862,No
+835,Female,32,42,Internet,35.802298629127975,Two year,Yes,Mailed check,Yes,No,No,No,1576.1357544689995,No
+836,Female,63,30,Internet,28.68086161436502,Two year,No,Mailed check,No,Yes,No,No,885.4396443477347,No
+837,Female,35,14,Internet,39.244701360336194,Two year,Yes,Electronic check,No,No,No,No,593.5101821009422,Yes
+838,Female,47,10,Phone,105.24443864977455,One year,Yes,Bank transfer,Yes,No,No,No,1055.4534801223356,No
+839,Male,24,55,Phone,22.45226492629329,One year,No,Bank transfer,No,No,No,No,1279.9476306595968,No
+840,Male,46,9,Both,63.1617250286856,One year,No,Bank transfer,No,No,Yes,Yes,584.3333773817986,No
+841,Male,28,26,Phone,100.09363887030906,Two year,No,Mailed check,Yes,Yes,No,No,2616.727632349445,No
+842,Female,23,34,Internet,30.02582045273901,One year,No,Credit card,Yes,Yes,No,No,1047.0594917065848,Yes
+843,Female,54,18,Internet,42.771359015896465,One year,Yes,Credit card,No,Yes,Yes,Yes,844.3381858131111,No
+844,Female,54,48,Both,92.74397075582868,Two year,No,Electronic check,No,Yes,Yes,Yes,4494.579725906167,No
+845,Female,38,17,Both,84.75524325933526,Two year,No,Mailed check,Yes,No,Yes,No,1507.984002634857,No
+846,Male,68,50,Internet,76.30238367151661,Two year,Yes,Electronic check,Yes,No,Yes,No,3906.3068615451725,No
+847,Male,68,63,Both,37.16408166281808,Month-to-month,Yes,Electronic check,Yes,No,Yes,No,2403.1530172254174,No
+848,Female,40,38,Phone,99.45310119658656,One year,No,Mailed check,No,No,Yes,No,3834.1980088782634,Yes
+849,Male,28,10,Internet,34.1414111881296,One year,No,Mailed check,Yes,Yes,No,No,394.3636189978502,No
+850,Female,61,47,Internet,33.47978947230642,Two year,No,Electronic check,Yes,No,Yes,Yes,1634.9168143853117,No
+851,Female,48,13,Phone,99.50350443033544,Two year,No,Credit card,Yes,No,Yes,Yes,1382.7195532769426,No
+852,Female,32,23,Internet,56.92233278840753,Month-to-month,No,Credit card,No,Yes,Yes,Yes,1385.1733068091844,No
+853,Female,69,57,Internet,51.261711592334684,One year,Yes,Bank transfer,No,No,No,No,2990.8262910216117,No
+854,Female,66,46,Phone,47.86720513102364,Two year,No,Credit card,No,Yes,No,Yes,2226.458753704704,Yes
+855,Male,19,34,Both,52.497210636760144,Month-to-month,Yes,Electronic check,No,Yes,No,No,1828.2588198212254,No
+856,Male,58,63,Internet,54.05875997076052,One year,No,Mailed check,No,No,No,Yes,3447.550708111278,No
+857,Male,25,5,Phone,89.63676936065396,Two year,Yes,Electronic check,Yes,No,Yes,Yes,546.8288235555308,No
+858,Male,23,70,Phone,44.02622011512725,One year,No,Electronic check,No,Yes,Yes,Yes,3083.002982340052,No
+859,Female,33,42,Both,52.532645347390485,Month-to-month,Yes,Electronic check,No,No,No,Yes,2287.9847686394896,No
+860,Male,59,13,Both,97.62115084700662,One year,No,Mailed check,Yes,Yes,No,No,1323.0443372465515,No
+861,Male,50,1,Internet,111.31505733137121,Month-to-month,No,Bank transfer,Yes,Yes,Yes,Yes,203.82771862631756,No
+862,Male,41,70,Phone,81.28359702284322,Two year,No,Credit card,No,No,No,Yes,5753.9868038048835,No
+863,Male,32,23,Internet,30.511822946280702,Month-to-month,Yes,Bank transfer,Yes,Yes,Yes,No,728.8883921885279,Yes
+864,Female,52,50,Phone,74.15846607086229,Two year,No,Credit card,No,No,Yes,Yes,3717.083987096326,Yes
+865,Female,47,66,Phone,82.77788742244063,Month-to-month,No,Bank transfer,Yes,No,Yes,Yes,5526.879501774683,No
+866,Female,69,11,Internet,51.405269700694745,One year,Yes,Mailed check,No,Yes,Yes,No,647.4019284436604,No
+867,Female,43,71,Internet,102.80003729268972,Two year,No,Mailed check,Yes,Yes,No,No,7302.016654138961,No
+868,Female,22,17,Phone,98.20788107571781,Month-to-month,Yes,Bank transfer,Yes,Yes,Yes,Yes,1695.8639471204474,Yes
+869,Male,18,28,Phone,77.530670672029,One year,No,Electronic check,No,No,Yes,Yes,2234.9573371266665,No
+870,Female,44,39,Internet,34.50155894271119,One year,Yes,Credit card,Yes,Yes,Yes,No,1435.717808312661,Yes
+871,Male,38,42,Both,89.73814656840916,Month-to-month,No,Electronic check,Yes,Yes,No,Yes,3809.3312358771213,No
+872,Male,23,71,Phone,109.53486638415221,One year,Yes,Mailed check,No,Yes,No,Yes,7789.029392027421,No
+873,Female,42,39,Both,45.010110977323635,Two year,No,Mailed check,No,Yes,Yes,Yes,1820.2410370375096,No
+874,Female,35,35,Internet,115.86858956840082,One year,No,Electronic check,Yes,No,Yes,Yes,4071.773243332885,Yes
+875,Female,22,41,Both,97.13023970302835,One year,No,Mailed check,No,No,Yes,No,4072.500003347191,No
+876,Female,50,41,Both,50.03215747791124,Month-to-month,Yes,Mailed check,No,No,No,No,2139.6450564809766,No
+877,Female,67,28,Phone,81.68211241115817,Two year,No,Credit card,No,Yes,No,Yes,2294.4552536425617,No
+878,Male,35,37,Phone,50.784793208069445,Month-to-month,No,Electronic check,Yes,Yes,No,Yes,1954.4327960403123,No
+879,Male,26,60,Both,29.946787609389407,Two year,Yes,Bank transfer,No,No,No,Yes,1830.7095967348225,No
+880,Female,27,28,Phone,102.41486696206854,Two year,No,Electronic check,Yes,No,No,Yes,2867.910333160918,Yes
+881,Male,54,57,Both,86.58070345090323,One year,No,Bank transfer,Yes,No,Yes,No,4987.639270523922,Yes
+882,Male,49,59,Both,81.40006512807219,One year,No,Bank transfer,Yes,No,Yes,Yes,4881.797773583177,No
+883,Female,48,32,Internet,34.21728807132334,One year,Yes,Bank transfer,Yes,Yes,Yes,No,1117.6957963470645,Yes
+884,Female,27,49,Both,57.737711316979706,One year,Yes,Electronic check,No,No,No,No,2880.7820519767974,Yes
+885,Female,62,4,Internet,107.66360800049111,Month-to-month,Yes,Credit card,No,Yes,No,Yes,433.63279544550085,No
+886,Male,66,65,Phone,36.33044607769063,Month-to-month,No,Credit card,Yes,Yes,Yes,No,2381.788421273165,No
+887,Male,53,38,Both,24.79028869971185,Two year,No,Mailed check,No,No,Yes,Yes,968.0510976998368,No
+888,Female,50,40,Internet,39.11514768901753,One year,No,Electronic check,Yes,Yes,No,No,1575.1614673077747,No
+889,Female,32,13,Internet,45.0180007174864,Two year,No,Electronic check,No,Yes,Yes,Yes,669.5645761970139,No
+890,Male,41,48,Internet,98.36425237658834,Month-to-month,Yes,Mailed check,Yes,Yes,No,Yes,4778.70933872288,No
+891,Male,50,58,Both,84.81414711893314,One year,Yes,Electronic check,Yes,No,No,Yes,4998.614959009464,No
+892,Male,46,22,Phone,21.734274680649218,One year,Yes,Mailed check,Yes,No,Yes,No,500.0174923696688,No
+893,Female,61,13,Both,21.728965274119666,One year,No,Mailed check,No,Yes,No,No,310.6833017376484,Yes
+894,Female,51,18,Phone,76.68964288000555,Month-to-month,Yes,Bank transfer,Yes,Yes,Yes,Yes,1452.1133743411442,No
+895,Male,68,40,Internet,83.32924423782887,Two year,No,Mailed check,No,Yes,No,No,3359.513594922546,No
+896,Female,64,32,Both,32.542188091555396,One year,Yes,Bank transfer,No,No,Yes,Yes,1112.741749095012,No
+897,Male,62,30,Internet,81.04621520835593,One year,No,Bank transfer,No,No,Yes,No,2505.0624435369177,No
+898,Female,26,56,Phone,44.03519104195401,Two year,Yes,Mailed check,No,No,No,Yes,2475.3172064010623,Yes
+899,Male,55,66,Internet,53.67213424605472,Two year,No,Mailed check,No,Yes,No,No,3616.5269699218325,No
+900,Female,20,38,Internet,60.88315803843413,Two year,No,Mailed check,Yes,Yes,Yes,No,2316.5178957964563,No
+901,Female,35,1,Phone,31.619479623427964,One year,No,Mailed check,Yes,No,Yes,No,109.38636316599202,No
+902,Female,33,24,Phone,116.3093605444955,One year,Yes,Mailed check,Yes,Yes,Yes,No,2800.4185471562973,No
+903,Female,21,14,Internet,117.3764453627561,One year,Yes,Credit card,No,Yes,Yes,Yes,1647.9249956128926,No
+904,Male,39,9,Phone,64.50016890894074,Two year,No,Electronic check,Yes,No,No,Yes,633.9007860780221,Yes
+905,Male,66,54,Both,45.74664780802747,One year,No,Mailed check,No,Yes,Yes,No,2518.371884992933,No
+906,Male,68,14,Both,115.85944465253112,Month-to-month,No,Credit card,Yes,No,Yes,Yes,1698.8332974733135,No
+907,Female,47,9,Phone,101.80573965471908,One year,Yes,Bank transfer,No,No,Yes,Yes,939.4210695971539,No
+908,Female,55,7,Both,92.42286055582319,Two year,Yes,Credit card,No,Yes,No,No,739.8473391015382,No
+909,Female,40,28,Internet,66.18117872776392,Month-to-month,No,Credit card,Yes,Yes,Yes,Yes,1935.0446376800273,No
+910,Female,36,38,Phone,61.05787014411722,Two year,No,Electronic check,Yes,No,No,No,2360.9457801961003,Yes
+911,Male,25,36,Both,97.93492722768518,One year,Yes,Mailed check,No,No,Yes,No,3621.2985450028254,No
+912,Male,67,41,Phone,71.96136777646267,Month-to-month,Yes,Credit card,No,Yes,Yes,No,2976.893262759244,No
+913,Male,44,27,Both,86.0582138820808,One year,No,Credit card,No,Yes,Yes,No,2348.7241863804047,No
+914,Male,22,58,Phone,76.6192981608412,Two year,No,Mailed check,No,Yes,Yes,No,4472.893607314969,No
+915,Male,63,46,Internet,91.21854071513629,One year,Yes,Bank transfer,No,Yes,No,No,4258.04182528025,No
+916,Male,43,59,Internet,29.410500407840097,One year,No,Bank transfer,Yes,Yes,No,Yes,1754.7142901423513,No
+917,Female,44,24,Phone,57.76210926357868,Two year,Yes,Electronic check,No,No,No,No,1474.6255243108048,No
+918,Female,69,19,Both,36.70891885098651,Two year,No,Electronic check,Yes,No,No,Yes,758.0984529913432,No
+919,Male,65,16,Both,44.20439000235356,One year,No,Mailed check,No,Yes,No,Yes,801.997456724043,Yes
+920,Female,37,65,Phone,40.08242765381808,Two year,Yes,Electronic check,No,Yes,Yes,Yes,2694.80328889385,No
+921,Male,32,4,Both,70.33222993038652,One year,Yes,Electronic check,No,No,Yes,Yes,330.9063816320478,No
+922,Male,36,21,Both,21.89929885099187,One year,No,Credit card,Yes,Yes,Yes,Yes,491.66869591177147,No
+923,Female,50,48,Phone,116.39676020084441,Month-to-month,Yes,Credit card,No,Yes,Yes,No,5676.89448600167,No
+924,Male,45,63,Both,71.89638264095711,One year,Yes,Mailed check,No,Yes,Yes,Yes,4625.885709920167,No
+925,Female,54,25,Internet,25.2571514204389,One year,Yes,Electronic check,No,Yes,No,No,717.9281033725597,No
+926,Male,56,41,Both,88.20538403617591,Two year,No,Bank transfer,Yes,No,Yes,No,3689.76366356367,No
+927,Male,38,10,Phone,46.88880500978765,Month-to-month,Yes,Mailed check,Yes,Yes,Yes,No,507.63415449819445,No
+928,Male,62,42,Phone,30.676759258842985,Month-to-month,No,Credit card,No,No,No,No,1346.7191689730364,No
+929,Male,21,20,Phone,103.03036859749949,Month-to-month,No,Mailed check,Yes,No,No,No,2154.161396325835,No
+930,Female,36,68,Internet,39.79076029143242,One year,No,Credit card,No,Yes,No,No,2772.4955623175438,No
+931,Male,31,67,Both,30.475426885963135,Month-to-month,No,Credit card,Yes,Yes,No,Yes,2071.444177255605,No
+932,Male,69,25,Phone,25.6906452603832,Month-to-month,Yes,Mailed check,No,Yes,No,Yes,695.468300037035,No
+933,Female,67,36,Phone,92.8557743534167,Two year,Yes,Electronic check,Yes,No,No,No,3439.767994345806,No
+934,Female,49,47,Phone,85.5271247322768,Two year,No,Mailed check,No,No,Yes,Yes,4047.7880880807065,No
+935,Male,51,33,Both,20.819914058607406,One year,Yes,Bank transfer,Yes,No,No,Yes,763.7641335566552,No
+936,Male,36,35,Both,42.14805404483037,One year,Yes,Electronic check,Yes,Yes,Yes,Yes,1559.404875198617,No
+937,Female,30,43,Both,90.46820311167495,One year,No,Credit card,No,No,No,Yes,3943.0679893543943,Yes
+938,Male,65,38,Both,35.21408547039523,Two year,Yes,Bank transfer,No,Yes,Yes,Yes,1340.2543492672373,No
+939,Female,45,56,Both,77.67507831261645,Month-to-month,Yes,Electronic check,No,No,No,No,4444.6086809333065,No
+940,Male,57,36,Both,41.31564667521073,Month-to-month,Yes,Credit card,No,No,No,No,1555.2081026074507,No
+941,Female,52,66,Phone,64.92342848107873,Month-to-month,Yes,Bank transfer,No,No,No,No,4364.596925262976,No
+942,Male,25,21,Internet,106.7423061801781,Two year,Yes,Mailed check,Yes,Yes,Yes,Yes,2318.9963386381996,No
+943,Female,48,47,Phone,50.259642730098605,Two year,Yes,Mailed check,No,No,No,Yes,2432.7753785314185,No
+944,Female,63,63,Internet,88.59723899252313,Two year,Yes,Electronic check,Yes,Yes,Yes,No,5632.098340945482,No
+945,Female,34,63,Phone,63.82812327828012,Two year,No,Mailed check,No,Yes,Yes,No,4026.6105321380473,No
+946,Male,19,31,Phone,29.61552543014883,Month-to-month,Yes,Electronic check,No,No,No,No,1015.685443068219,No
+947,Female,42,52,Internet,56.06349936518009,Month-to-month,Yes,Mailed check,No,Yes,No,Yes,2978.1594692564718,No
+948,Male,34,5,Phone,104.12800663481076,Two year,Yes,Electronic check,No,Yes,No,Yes,595.7015499266054,Yes
+949,Female,63,69,Internet,117.30462422682282,Two year,Yes,Electronic check,No,No,Yes,No,8118.909421725295,No
+950,Female,45,7,Internet,104.50816706160053,Month-to-month,Yes,Bank transfer,No,Yes,No,Yes,738.179180049049,No
+951,Male,55,42,Internet,36.22283907735507,One year,Yes,Mailed check,Yes,No,No,No,1539.281364645878,No
+952,Male,68,4,Phone,54.55092984490846,One year,No,Bank transfer,No,Yes,No,Yes,255.44939845278995,No
+953,Male,42,40,Both,103.11881586067501,Two year,Yes,Mailed check,Yes,Yes,Yes,Yes,4127.321174072085,Yes
+954,Female,66,28,Phone,75.38959343957654,Two year,No,Mailed check,Yes,Yes,No,Yes,2148.719855954028,No
+955,Female,30,14,Phone,97.61857971144082,One year,Yes,Mailed check,No,No,Yes,Yes,1373.9455432815118,No
+956,Male,22,45,Internet,97.778326661679,Two year,Yes,Bank transfer,No,No,Yes,No,4463.488001362298,No
+957,Male,66,1,Internet,27.10879006301196,One year,No,Credit card,Yes,No,No,Yes,58.414573604675205,No
+958,Male,69,1,Both,54.24065656010231,Month-to-month,Yes,Bank transfer,Yes,No,Yes,Yes,122.1683770120407,No
+959,Male,64,1,Internet,67.90215054529672,Month-to-month,Yes,Bank transfer,No,No,Yes,Yes,127.24805291277261,No
+960,Male,58,12,Both,114.5224721580388,Two year,Yes,Mailed check,No,No,No,No,1400.9424109476902,No
+961,Male,32,30,Phone,109.82288010160042,One year,Yes,Electronic check,No,No,No,Yes,3334.126779637238,No
+962,Female,67,6,Internet,62.30319829312198,Two year,No,Mailed check,No,Yes,Yes,No,444.3687260118093,No
+963,Male,28,70,Phone,29.566592748691505,Two year,No,Mailed check,Yes,Yes,Yes,Yes,2130.1285705305118,No
+964,Male,45,58,Both,60.45422868803817,Month-to-month,Yes,Electronic check,Yes,No,No,Yes,3524.8744811286097,No
+965,Male,32,31,Both,73.59033326412808,One year,No,Mailed check,Yes,Yes,No,Yes,2341.0474918331283,No
+966,Male,56,19,Both,110.43971913990313,One year,No,Credit card,Yes,Yes,No,Yes,2142.4035603592242,No
+967,Female,31,17,Phone,49.487926714121706,Two year,Yes,Bank transfer,No,Yes,No,No,928.34119464727,Yes
+968,Male,22,10,Both,50.886414566898736,Month-to-month,No,Bank transfer,No,Yes,Yes,Yes,509.78244668380205,No
+969,Male,40,10,Both,82.7183234547841,One year,Yes,Bank transfer,Yes,Yes,No,No,914.7010494485974,Yes
+970,Male,33,65,Phone,70.5191555071379,One year,Yes,Credit card,No,No,Yes,Yes,4654.122949399593,No
+971,Female,47,29,Phone,39.58689590588065,Two year,No,Bank transfer,Yes,No,No,Yes,1192.7048194339986,Yes
+972,Female,32,59,Both,34.472724884257936,Month-to-month,Yes,Electronic check,No,Yes,Yes,No,2106.864910469371,No
+973,Male,60,49,Internet,68.94972098053466,One year,Yes,Bank transfer,Yes,No,No,Yes,3392.965115179656,No
+974,Female,43,28,Both,97.93909564002804,Month-to-month,No,Mailed check,No,Yes,No,Yes,2794.5192431543687,No
+975,Male,29,26,Internet,97.88312515567874,Two year,Yes,Mailed check,Yes,Yes,No,Yes,2621.33820583306,No
+976,Male,49,25,Phone,117.58036873205907,Two year,Yes,Bank transfer,No,No,Yes,No,3030.7637517787653,No
+977,Male,45,6,Phone,58.27181981579947,One year,No,Credit card,No,Yes,Yes,No,421.10572300282433,No
+978,Female,40,35,Phone,59.1989326810261,Month-to-month,No,Electronic check,No,No,No,No,2102.5598694386626,Yes
+979,Male,64,60,Phone,20.18194947805292,One year,Yes,Mailed check,Yes,No,Yes,No,1282.8083644991996,No
+980,Male,61,44,Phone,102.99173651954892,One year,No,Credit card,No,Yes,No,Yes,4609.2149559488225,Yes
+981,Male,38,60,Phone,84.66284440680506,Month-to-month,No,Electronic check,Yes,No,Yes,Yes,5122.773140035537,Yes
+982,Female,20,22,Phone,96.99221187318909,Two year,No,Electronic check,Yes,Yes,Yes,No,2193.1821228926824,No
+983,Female,43,13,Internet,67.0623199944803,Month-to-month,Yes,Bank transfer,Yes,No,No,Yes,872.45476435543,No
+984,Female,18,6,Both,112.01934886408648,Month-to-month,Yes,Bank transfer,Yes,No,No,No,698.9513981366589,No
+985,Male,49,21,Both,22.91137978327144,One year,No,Mailed check,No,No,No,No,566.9479873178657,No
+986,Male,64,32,Phone,31.528118273788834,Two year,No,Electronic check,No,No,Yes,Yes,1080.547818353757,No
+987,Female,24,24,Phone,57.60173349715031,Two year,Yes,Credit card,No,Yes,Yes,Yes,1467.9056497997256,Yes
+988,Male,36,20,Phone,28.51059081135721,One year,No,Electronic check,No,Yes,Yes,Yes,660.0384882688332,No
+989,Female,40,48,Both,28.78878819650719,One year,Yes,Credit card,No,Yes,No,Yes,1435.261089942103,Yes
+990,Female,64,7,Internet,76.6872679350545,Two year,No,Credit card,No,No,Yes,No,620.4103555713201,No
+991,Male,43,69,Internet,41.612201956991754,One year,Yes,Credit card,Yes,No,No,Yes,2880.514036120506,No
+992,Male,31,25,Internet,82.65352105571294,Month-to-month,No,Credit card,Yes,No,No,Yes,2104.0749514010618,No
+993,Male,30,48,Both,112.93998221452581,Month-to-month,Yes,Credit card,Yes,Yes,No,No,5497.08896989723,No
+994,Male,55,33,Internet,102.38822097031291,One year,Yes,Bank transfer,Yes,Yes,Yes,Yes,3386.1262416332333,No
+995,Male,37,17,Phone,44.84303875538083,Month-to-month,Yes,Electronic check,Yes,No,No,No,838.7208698490424,No
+996,Male,49,23,Phone,28.966292611132296,One year,No,Credit card,No,No,Yes,No,762.4261404762638,No
+997,Male,46,29,Both,115.01924682159203,Two year,No,Credit card,No,Yes,Yes,No,3370.7454455005573,No
+998,Male,37,29,Internet,119.44959313733249,One year,No,Mailed check,Yes,No,Yes,Yes,3551.1709449597633,No
+999,Female,58,6,Both,57.44948994651792,Two year,No,Bank transfer,No,No,Yes,No,393.04170910758376,No
+1000,Male,58,67,Both,66.0677261142561,One year,No,Electronic check,No,Yes,Yes,Yes,4438.785106862961,No

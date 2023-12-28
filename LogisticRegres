@@ -1,0 +1,31 @@
+# Import libraries
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+
+# Create sample data
+house_data = {'Year': [2010, 2011, 2012, 2013, 2014, 2015], 
+              'Price': [200, 210, 220, 225, 235, 240],
+              'Beds': [3, 3, 3, 3, 3, 3], 
+              'Baths': [2, 2, 2, 2, 2, 2],
+              'Sqft': [1500, 1500, 1500, 1500, 1500, 1500],
+              'Increased': [0, 1, 1, 1, 1, 1]}
+df = pd.DataFrame(house_data)
+
+# Split into train and test 
+X = df[['Year', 'Price', 'Beds', 'Baths', 'Sqft']]
+y = df['Increased']
+X_train, X_test, y_train, y_test = train_test_split(X, y)
+
+# Fit a logistic regression model 
+logmodel = LogisticRegression().fit(X_train, y_train)
+
+# Estimate probability of increase on test data
+probs = logmodel.predict_proba(X_test)
+
+# Print estimated probabilities
+print(probs)
+
+import joblib
+joblib.dump(logmodel, 'logistic_regression_model.pkl')
